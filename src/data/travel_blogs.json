@@ -1,0 +1,251 @@
+{
+  "egypt": {
+    "id": "egypt",
+    "title": "Travel to the Land of Pharaohs",
+    "location": "Luxor & Cairo",
+    "country": "Egypt",
+    "description": "Standing before the Great Pyramid of Giza at dawn, the silence is almost sacred. Egypt is one of those rare destinations that exceeds every expectation you arrive with — the scale of the monuments is incomprehensible until you stand in their shadow. From the Valley of the Kings to the buzzing souks of Khan el-Khalili, every corner hums with millennia of history. We floated down the Nile on a felucca as the sun dipped behind desert cliffs, painting the sky amber and rose. The temples of Karnak left us speechless — row after row of towering columns carved with hieroglyphs, lit golden in the afternoon light. Cairo itself is chaos and charm in equal measure: honking taxis, perfume shops, the smell of kushari wafting from street stalls. Egypt does not gently ease you in; it grabs you by the collar and pulls you four thousand years back in time.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=1200&q=80",
+        "caption": "The Great Pyramid at sunrise"
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=1200&q=80",
+        "caption": "Felucca sail on the Nile"
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1608236615542-5a4c7c4cd0fb?w=1200&q=80",
+        "caption": "Karnak Temple columns"
+      },
+      {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1539768942893-daf3538e6e44?w=1200&q=80",
+        "caption": "Valley of the Kings"
+      },
+      {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=1200&q=80",
+        "caption": "Abu Simbel temple facade"
+      },
+      {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1558618047-f4f6c4e1b046?w=1200&q=80",
+        "caption": "Cairo old bazaar at dusk"
+      }
+    ]
+  },
+  "greece": {
+    "id": "greece",
+    "title": "Visit to Greece",
+    "location": "Athens & Santorini",
+    "country": "Greece",
+    "description": "Greece hit differently than I expected. Yes, the postcards are right — the blue-domed churches of Oia really do glow against the caldera at sunset, and the Aegean really is that improbable shade of cerulean. But what surprised me was how alive ancient history feels here. Walking up to the Acropolis at dawn, before the crowds, you half-expect Socrates to be holding court nearby. Athens is a city layered like baklava — Byzantine churches tucked between neoclassical facades, marble ruins poking up from beneath modern pavements. On Santorini, we hiked the cliffside path from Imerovigli to Oia, watching the volcanic caldera glitter below. The food deserves its own chapter: grilled octopus drizzled with olive oil, creamy tzatziki, lamb slow-cooked with orzo. Every meal felt like a small celebration.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=1200&q=80",
+        "caption": "Oia at golden hour"
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?w=1200&q=80",
+        "caption": "The Acropolis and Parthenon"
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1200&q=80",
+        "caption": "White-washed Cycladic villages"
+      },
+      {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1200&q=80",
+        "caption": "Caldera view from the clifftop"
+      },
+      {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1504512485720-7d83a16ee930?w=1200&q=80",
+        "caption": "Fishing boats in a harbour"
+      },
+      {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?w=1200&q=80",
+        "caption": "Ancient ruins at dusk"
+      }
+    ]
+  },
+  "italy": {
+    "id": "italy",
+    "title": "Travel to Italy",
+    "location": "Rome, Florence & Venice",
+    "country": "Italy",
+    "description": "Italy seduces you layer by layer. Rome opens with a thunderclap — the Colosseum, the Forum, the Vatican — monuments so iconic they almost feel unreal until you're standing inside them. Then Florence refines everything: the Uffizi's corridors hung with Botticelli and Caravaggio, leather workshops tucked into medieval streets, the view from Piazzale Michelangelo at twilight painting the Duomo in warm amber. Venice was our final chapter, and she saved the best trick for last. There are no cars. The city breathes differently — gondolas creak, water laps at stone steps, voices carry across canals. Getting genuinely lost in the labyrinth of calli behind San Marco is one of the great pleasures of travel. And through it all, the food: wood-fired pizza in Naples, cacio e pepe in a Roman trattoria, risotto al nero di seppia in a Venetian bacaro. Italy is an argument for a slower life.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://d1bv4heaa2n05k.cloudfront.net/other%2Fbd862875-9f6f-4d80-81b7-c1abf71d6957_1567668079158%2F1567670255114-shutterstock_1422682601.jpg",
+        "caption": "Ruins of Forum Romanum from Palatine Hill."
+      },
+      {
+        "id": 2,
+        "image": "https://d1bv4heaa2n05k.cloudfront.net/user-images/1531829310880/shutterstock-121564030_destinationMain_1531829318756.jpeg",
+        "caption": "Florence, Cathedral Santa Maria del Fiore."
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&q=80",
+        "caption": "Venice Grand Canal"
+      },
+      {
+        "id": 4,
+        "image": "https://warytravelers.com/wp-content/uploads/2024/08/visiting-lake-como.jpg",
+        "caption": "Lake Como"
+      },
+      {
+        "id": 5,
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQOsUcEeetmrlZtn0O4vU4JSL7BzNypgk1a8H6CwyVA6X3NVqfY",
+        "caption": "Cinque Terre coastline"
+      },
+      {
+        "id": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTreBGxoC_-AIe4IiUYV7j6QLPERHczVNt2p7Jys6voqb5vQmb-LtVPiSCW&s=10",
+        "caption": "Vatican City from above"
+      },
+      {
+        "id": 7,
+        "image": "https://lh3.googleusercontent.com/grass-cs/ACvplmNTp1xWQXrL6C6ZWGCKM8QOTHC0yfdSSDdtKfwg8p6jIzYyCLff_WG2YTNDGCoQ4ofu5ajPeV_rzAmFLReeOiCHyF7EiIV-zxli0B5auacAGwxI3rMGk1bPHeYZ4PGlrA-URawE=s294-w294-h220-n-k-no",
+        "caption": "Leaning Tower Of Pisa"
+      },
+      {
+        "id": 8,
+        "image": "https://www.touristitaly.com/wp-content/uploads/2025/07/amalfi-coast-map-travel-1024x683.jpg",
+        "caption": "Amalfi Cost"
+      },
+      {
+        "id": 9,
+        "image": "https://media.istockphoto.com/id/2161918418/photo/galleria-vittorio-emanuele-ii-in-milan-scenic-architecture-view.jpg?s=612x612&w=0&k=20&c=3bUU_Qk0O50NDyTX6sB8mR9UlCHH7EXKX35FikDbdfY=",
+        "caption": "Galleria Vittorio Emanuele II, Milan"
+      }
+    ]
+  },
+  "vietnam": {
+    "id": "vietnam",
+    "title": "Vietnam & Beyond",
+    "location": "Hanoi, Ha Long Bay & Hoi An",
+    "country": "Vietnam",
+    "description": "Vietnam moves at two speeds simultaneously: the breakneck chaos of its cities and the profound stillness of its landscapes. Hanoi's Old Quarter is a fever dream of motorbikes, street food vendors and French colonial architecture; navigating it on foot feels like playing a very delicious video game. Ha Long Bay stopped us cold — two thousand limestone karsts rising from jade-green water, mist clinging to their peaks in the early morning, the only sound the soft lap of waves. We kayaked through sea caves and watched the sunset paint everything copper from the deck of our junk boat. Hoi An was the gentle exhale after all that stimulation: lantern-lit streets, tailor shops, the best banh mi on the planet eaten standing on a kerb. The food throughout was a revelation — pho for breakfast every day and not a single regret.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=1200&q=80",
+        "caption": "Ha Long Bay limestone karsts"
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200&q=80",
+        "caption": "Hoi An lantern festival"
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1557750255-c76072a7aad1?w=1200&q=80",
+        "caption": "Hanoi Old Quarter streets"
+      },
+      {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1530796340648-8a7db0e6e76e?w=1200&q=80",
+        "caption": "Rice terraces of Sapa"
+      },
+      {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1564596823821-79b6ad36a06c?w=1200&q=80",
+        "caption": "Kayaking through sea caves"
+      },
+      {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200&q=80",
+        "caption": "Street food pho at dawn"
+      }
+    ]
+  },
+  "england": {
+    "id": "england",
+    "title": "England",
+    "location": "London & the Cotswolds",
+    "country": "United Kingdom",
+    "description": "England has a way of feeling simultaneously familiar and entirely foreign. London is one of those cities that takes weeks to begin to understand — not just the landmarks (though the Tower of London and the National Gallery deserve every superlative) but the neighbourhoods: Borough Market on a Saturday morning, the canal walks of Little Venice, the bookshops of Charing Cross Road. We escaped the city by train to the Cotswolds, where honey-coloured limestone villages seem to have been preserved under glass. Bourton-on-the-Water, Burford, Bibury — each one prettier than the last, their gardens bursting with hollyhocks and roses. The English countryside on a rare sunny day is a pastoral painting you can walk inside. Cream teas at every village pub, evening pints of bitter beside open fires, and hedgerows so impenetrably green they almost seem artificial.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80",
+        "caption": "Big Ben and Westminster"
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=80",
+        "caption": "Tower Bridge at dusk"
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1520986606214-8b456906c813?w=1200&q=80",
+        "caption": "Cotswolds village charm"
+      },
+      {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=1200&q=80",
+        "caption": "Oxford University spires"
+      },
+      {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1535207010348-71e47296838a?w=1200&q=80",
+        "caption": "Borough Market produce"
+      },
+      {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=1200&q=80",
+        "caption": "English countryside in bloom"
+      }
+    ]
+  },
+  "china": {
+    "id": "china",
+    "title": "China",
+    "location": "Beijing & Xi'an",
+    "country": "China",
+    "description": "China operates at a scale that resets your understanding of what a country can be. Beijing alone could take a lifetime — the Forbidden City is not a palace but an entire city within a city, its red walls and golden rooftops stretching for almost a kilometre. We spent three days there and still felt we'd only skimmed the surface. The Great Wall at Mutianyu, on a crisp October morning with the mountains turning gold beneath us, was one of those once-in-a-lifetime travel moments that no photograph fully captures. Xi'an's Terracotta Army is quietly astonishing — not just for what it is, but for what remains undiscovered: only a fraction of the vast underground army has been excavated, and archaeologists are still piecing together Qin Shi Huang's buried world. China's modernity runs in parallel to all this antiquity — bullet trains, soaring skylines, contactless everything.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=1200&q=80",
+        "caption": "Great Wall winding through mountains"
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=1200&q=80",
+        "caption": "Forbidden City rooftops"
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1529921879218-f99546de2e7d?w=1200&q=80",
+        "caption": "Terracotta Army warriors"
+      },
+      {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=1200&q=80",
+        "caption": "Shanghai Bund at night"
+      },
+      {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?w=1200&q=80",
+        "caption": "Li River karst landscape"
+      },
+      {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=1200&q=80",
+        "caption": "Temple of Heaven at dawn"
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "bengal-tiger": {
+    "id": "bengal-tiger",
+    "title": "Bengal Tiger — Apex of the Mangrove",
+    "location": "Sundarbans & Ranthambore",
+    "country": "India",
+    "category": "Big Cats",
+    "description": "To track a Bengal tiger through the Sundarbans is to move through one of the most psychologically intense landscapes on earth. The mangrove delta — shared between India and Bangladesh — is the only place in the world where tigers swim between islands, hunt in tidal channels, and have learned to tolerate salt water. You travel by boat, crouched low, eyes scanning every mudbank for the signature pug marks pressed into the clay. There is no guarantee. There never is. But the tension of knowing a tiger could emerge from any thicket at any moment keeps every sense alive in a way few experiences can match. In Ranthambore, the encounter is different — the ruins of a medieval fort rise above the dry teak forest, and tigers have been photographed lounging on its ramparts at dusk, utterly indifferent to history and to you. The Bengal tiger is estimated at fewer than 3,000 individuals in the wild. Project Tiger, launched in India in 1973, pulled the species back from the immediate edge. But habitat loss and prey depletion continue to press in from every side. Every photograph of a live tiger in the wild is an act of witness.",
+    "galleryPhotos": [
+      { "id": 1, "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1200&q=80", "caption": "Bengal tiger in the tall grass" },
+      { "id": 2, "image": "https://images.unsplash.com/photo-1508817628294-5a453fa0b8fb?w=1200&q=80", "caption": "Tiger at the water's edge" },
+      { "id": 3, "image": "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?w=1200&q=80", "caption": "Pug marks in Sundarbans mud" },
+      { "id": 4, "image": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=1200&q=80", "caption": "Tiger crossing the forest stream" },
+      { "id": 5, "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=1200&q=80", "caption": "Portrait in the golden hour" },
+      { "id": 6, "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80", "caption": "Ranthambore fort with tiger below" }
+    ]
+  },
+  "snow-leopard": {
+    "id": "snow-leopard",
+    "title": "Snow Leopard — Ghost of the High Passes",
+    "location": "Spiti Valley & Hemis",
+    "country": "India / Ladakh",
+    "category": "Big Cats",
+    "description": "They call it the ghost of the mountains for good reason. At altitudes between 3,000 and 5,500 metres across Central Asia's high ranges, the snow leopard moves like smoke — appearing briefly between boulders, then dissolving. Wildlife photographers and trackers report going twelve days on ridgelines without a confirmed sighting, and then, for perhaps forty seconds, the animal is there: pale grey rosettes against grey rock, a tail longer than its body curled over its back against the cold. In India's Spiti Valley and in Hemis National Park in Ladakh, dedicated trackers have spent years learning individual animals by their unique rosette patterns. Prey scarcity follows herders' livestock into leopard territory, creating human–wildlife conflict that threatens the estimated 4,000 to 6,500 individuals remaining. Camera traps set across ridgelines give researchers data while giving photographers rare, unguarded portraits: the animal mid-yawn at 4,800 metres, breath visible in the cold air, utterly unconcerned with the lens forty metres away.",
+    "galleryPhotos": [
+      { "id": 1, "image": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=1200&q=80", "caption": "Snow leopard on the ridge" },
+      { "id": 2, "image": "https://images.unsplash.com/photo-1574068468598-0f7a9dcbf1f5?w=1200&q=80", "caption": "In the high passes of Spiti" },
+      { "id": 3, "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=1200&q=80", "caption": "Portrait at altitude" },
+      { "id": 4, "image": "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?w=1200&q=80", "caption": "Camouflage among boulders" },
+      { "id": 5, "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80", "caption": "Snow leopard cub, Hemis" },
+      { "id": 6, "image": "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?w=1200&q=80", "caption": "Camera trap image, dawn" }
+    ]
+  },
+  "african-lion": {
+    "id": "african-lion",
+    "title": "African Lion — Lord of the Savannah",
+    "location": "Serengeti & Maasai Mara",
+    "country": "Tanzania / Kenya",
+    "category": "Big Cats",
+    "description": "The first time you hear a lion roar in the open dark of the Serengeti — not on film, not through speakers, but the real thing resonating across grassland at three in the morning — it rearranges something in your understanding of your own place in the natural order. Lions communicate across distances of up to eight kilometres with that sound. A coalition of males will roar in coordination, the chorus building and rolling outward through the pre-dawn silence. In daylight, they are mostly horizontal — sleeping sixteen to twenty hours, draped over branches or flattened in the shade of acacia trees, seemingly indifferent to the Land Cruisers parked nearby. But watch a hunt and you see the architecture beneath the relaxation: the coordinated pincer movement, the patient crawl through long grass, the sudden sprint at thirty kilometres over a hundred metres. The African lion population has fallen from around 200,000 in the mid-twentieth century to perhaps 25,000 today — a 90% decline driven by habitat loss, prey depletion, and human conflict.",
+    "galleryPhotos": [
+      { "id": 1, "image": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=1200&q=80", "caption": "Male lion at dusk, Serengeti" },
+      { "id": 2, "image": "https://images.unsplash.com/photo-1504173010664-32509107de45?w=1200&q=80", "caption": "Lioness on the watch" },
+      { "id": 3, "image": "https://images.unsplash.com/photo-1561986272-7ba1d21c4d98?w=1200&q=80", "caption": "Cubs playing in long grass" },
+      { "id": 4, "image": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=1200&q=80", "caption": "Pride resting under acacia" },
+      { "id": 5, "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=1200&q=80", "caption": "Sunrise on the Mara" },
+      { "id": 6, "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80", "caption": "Lion coalition patrolling" }
+    ]
+  },
+  "leopard": {
+    "id": "leopard",
+    "title": "Leopard — The Invisible Architect",
+    "location": "Yala & Kruger",
+    "country": "Sri Lanka / South Africa",
+    "category": "Big Cats",
+    "description": "Of all the big cats, the leopard is the most adaptable and, consequently, the hardest to find. It lives in rainforest and semi-desert, on African savannah and in the highlands of Sri Lanka. It drags prey twice its own weight up into trees to keep it from lions and hyenas. In Yala National Park in Sri Lanka, leopards have lost much of their natural fear of vehicles and can be observed at close range in a way impossible elsewhere — draped over branches in the afternoon, watching you with the calm of an animal that has correctly calculated it is the most dangerous thing for fifty kilometres. In South Africa's Kruger Park, finding a leopard requires luck and a skilled tracker: they move at night, follow drainage lines, and can disappear into grass that seems to offer no cover whatsoever. The Sri Lankan leopard is a distinct subspecies, listed as Vulnerable on the IUCN Red List, with perhaps 700 to 950 individuals remaining.",
+    "galleryPhotos": [
+      { "id": 1, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtU4ovCvAbO9Spydy6-XamqXwDmLwVGC7vdWmeNTPUYg&s=10", "caption": "Leopard licking itseld." },
+      { "id": 2, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcFiXnJE6gG0RaS2TC5LORIzfXhMz2I2_xrJvU-EDW7g&s=10", "caption": "Draped over a branch at noon" },
+      { "id": 3, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1_2G10aTj7ImeNsSg_ijUH3yyUmgqdj74I1PPC5K3Gw&s=10", "caption": "Leopard looking at the car" },
+      { "id": 4, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-crueX64dilffX3ihdWuK-BNJYTpsIrsrifADQzmv3Q&s=10", "caption": "Rosette pattern close-up" },
+      { "id": 5, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwLXkV53oqg_CcHPjOc_yyA_lnH6S9WszHZRow_Rk7nw&s=10", "caption": "Leopard sighting in Masai Mara" },
+      { "id": 6, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwPAqGvZonsvf-fQiQBXtTtBhOjRiK6E4IDX_aXEKF6g&s=10", "caption": "Leopard with a cub" },
+      { "id": 7, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0LvU5wEl88_D8tJ38n28WbRpXxGB5g0uPpTEoXjec6w&s", "caption": "Rosette pattern close-up" },
+      { "id": 8, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSfHaGK-aQ7XGAwn9xNBJpUYHQlP_Iv9xcc27HneZPEA&s=10", "caption": "Leopard on a branch" },
+      { "id": 9, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1zfUznUfkQqdhB-shWIlgQfPMbDoFGVOa1MXvYx3Kog&s=10", "caption": "Night movement, camera trap" }
+    ]
+  },
+  "clouded-leopard": {
+    "id": "clouded-leopard",
+    "title": "Clouded Leopard — The Arboreal Phantom",
+    "location": "Eastern Himalayas & Borneo",
+    "country": "India / Malaysia",
+    "category": "Big Cats",
+    "description": "The clouded leopard occupies a taxonomic position between the big cats and the small: it cannot roar like a lion or tiger, nor does it purr continuously like a domestic cat. It holds its own genus — Neofelis — and its own set of superlatives. It has the longest canine teeth relative to skull size of any living cat, so proportionally large they evoke the extinct sabre-toothed cats of the Pleistocene. It is also one of the most agile arboreal cats alive, capable of descending trees head-first, hanging from branches by its hind feet, and moving through the forest canopy in ways that make it essentially invisible from below. In the forests of the Eastern Himalayas and across Southeast Asia, sightings are extraordinarily rare — most of what we know comes from camera traps in Borneo and Sumatra. The Sunda clouded leopard, found only on Borneo and Sumatra, was confirmed as a separate species only in 2006. Both are listed as Vulnerable.",
+    "galleryPhotos": [
+      { "id": 1, "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=1200&q=80", "caption": "Clouded leopard in canopy" },
+      { "id": 2, "image": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=1200&q=80", "caption": "Cloud-pattern coat detail" },
+      { "id": 3, "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80", "caption": "Descending head-first" },
+      { "id": 4, "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1200&q=80", "caption": "Portrait in dense forest" },
+      { "id": 5, "image": "https://images.unsplash.com/photo-1574068468598-0f7a9dcbf1f5?w=1200&q=80", "caption": "Borneo rainforest habitat" },
+      { "id": 6, "image": "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?w=1200&q=80", "caption": "Camera trap, Eastern Himalayas" }
+    ]
+  },
+  "cheetah": {
+    "id": "cheetah",
+    "title": "Cheetah — Built Entirely for Speed",
+    "location": "Masai Mara & Kgalagadi",
+    "country": "Kenya / Botswana",
+    "category": "Big Cats",
+    "description": "Everything about the cheetah is an evolutionary argument for velocity. The deep chest houses lungs and heart disproportionately large for its frame. The spine flexes like a spring at each stride, adding half a body-length to every leap. The non-retractable claws grip like cleats. The black tear-marks beneath the eyes reduce glare. The result is an animal capable of 112 km/h from a standing start in three seconds — acceleration that exceeds any production car on the market. But speed has costs: a cheetah must rest for up to thirty minutes after a sprint before it can eat, and in that window lions, leopards, and hyenas regularly steal kills. In the Masai Mara, watching a cheetah hunt is like watching physics work in real time — the slow stalk, the selection of the target, and then the eruption of motion that is almost too fast for the eye. The global cheetah population stands at around 7,000 individuals, with population fragmentation making genetic diversity increasingly precarious.",
+    "galleryPhotos": [
+      { "id": 1, "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=1200&q=80", "caption": "Cheetah at full sprint" },
+      { "id": 2, "image": "https://images.unsplash.com/photo-1504173010664-32509107de45?w=1200&q=80", "caption": "Tear marks and spotted coat" },
+      { "id": 3, "image": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=1200&q=80", "caption": "Mother and cubs, Mara" },
+      { "id": 4, "image": "https://images.unsplash.com/photo-1561986272-7ba1d21c4d98?w=1200&q=80", "caption": "Scanning the plains from a mound" },
+      { "id": 5, "image": "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?w=1200&q=80", "caption": "Post-hunt rest in long grass" },
+      { "id": 6, "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80", "caption": "Dawn light on the Kgalagadi" }
+    ]
+  }
+}

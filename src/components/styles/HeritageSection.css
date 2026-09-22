@@ -1,0 +1,26 @@
+.heritage-section {
+  flex: 1;
+  min-width: 0;
+  padding: 1rem 2vw;
+}
+
+.heritage-section-title {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.heritage-section-title h2 {
+  font-family: 'Lora', serif;
+  font-size: clamp(1.1rem, 2vw, 1.6rem);
+  font-weight: 600;
+  color: var(--dark);
+  white-space: nowrap;
+}
+
+.heritage-section-line {
+  flex: 1;
+  height: 1px;
+  background: var(--light-border);
+}

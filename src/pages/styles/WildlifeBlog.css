@@ -1,0 +1,14 @@
+.wildlife-category-badge {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: #1a3d1f;
+  padding: 0.3rem 0.75rem;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}

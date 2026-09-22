@@ -1,0 +1,68 @@
+.wildlife-page {
+  min-height: 100vh;
+  background: var(--white);
+}
+
+/* ── Three-column body ──────────────────────────────── */
+.wildlife-body.three-col {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  padding: 3rem 4vw 5rem;
+  align-items: flex-start;
+}
+
+.wildlife-col {
+  flex: 1;
+  min-width: 0;
+  padding: 0 2rem;
+}
+
+.wildlife-col-title {
+  margin-bottom: 1.5rem;
+}
+
+.wildlife-col-title h2 {
+  font-family: 'Lora', serif;
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  font-weight: 700;
+  color: var(--slate);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.wildlife-col-line {
+  width: 32px;
+  height: 2px;
+  background: #6DB36D;
+}
+
+/* Vertical divider between columns */
+.wildlife-divider {
+  width: 1px;
+  background: var(--light-border);
+  align-self: stretch;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+/* ── Responsive ─────────────────────────────────────── */
+@media (max-width: 900px) {
+  .wildlife-body.three-col {
+    flex-direction: column;
+    padding: 2rem 5vw 4rem;
+    gap: 2.5rem;
+  }
+
+  .wildlife-col {
+    padding: 0;
+  }
+
+  .wildlife-divider {
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    align-self: auto;
+  }
+}

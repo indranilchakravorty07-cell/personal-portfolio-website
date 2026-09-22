@@ -1,0 +1,251 @@
+{
+  "parthenon": {
+    "id": "parthenon",
+    "title": "The Parthenon",
+    "location": "Acropolis Hill, Athens",
+    "country": "Greece",
+    "description": "Perched on its limestone rock above the noise of Athens, the Parthenon has been watching civilisations rise and fall for nearly two and a half millennia. Built between 447 and 432 BC as a temple to Athena, the patron goddess of the city, it represents the apex of classical Doric architecture — every column calibrated with subtle curvature to appear perfectly straight to the human eye. What strikes you on approach is not just its age but its command of the landscape: wherever you stand in Athens, you can find it. The frieze, much of which now resides in the British Museum in a persistent controversy, once depicted the Panathenaic procession in extraordinary detail. Despite centuries of use as a church, a mosque, and a gunpowder magazine (an explosion in 1687 caused severe damage), the skeletal grandeur that remains is still overwhelming. The Acropolis Museum below displays the surviving sculptures with quiet reverence.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?w=1200&q=80",
+        "caption": "The Parthenon's west facade"
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1200&q=80",
+        "caption": "Columns in the golden hour"
+      },
+      {
+        "id": 3,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTm0s9g5C3LN4V1A6b6OFMZDQDqy62P4UdwLYQiNQAmw&s=10",
+        "caption": "View of Athens from the Acropolis"
+      },
+      {
+        "id": 4,
+        "image": "https://news.gtp.gr/wp-content/uploads/2014/05/AcropolisAthens.jpg",
+        "caption": "Parthenon in the Lights"
+      },
+      {
+        "id": 5,
+        "image": "https://sofiaadventures.com/wp-content/uploads/2019/10/shutterstock_1017139666.jpg",
+        "caption": "Parthenon under the clear skies."
+      },
+      {
+        "id": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjKFjot9Cx-_0NY-Ws4Q5Q-MAcKtssdmD_1wL778ohzP8VwrDg7PCgLbvM&s=10",
+        "caption": "View of the Amphitheatre."
+      },
+      {
+        "id": 7,
+        "image": "https://chasingthedonkey.b-cdn.net/wp-content/uploads/2022/02/Parthenon-on-Acropolis-Athens-Greece_Depositphotos_257375286_S.jpeg",
+        "caption": "Parthenon in the Evening"
+      },
+      {
+        "id": 8,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThmc8GGZeQNrmX2rvUFxASBd3lSj4KCnaMHOgST4CEXxUgMmV01fXucEo&s=10",
+        "caption": "Front view of the Parthenon"
+      },
+      {
+        "id": 9,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7kp8dVF_2sHecWgvIu-lji-Gc5cj-TuA6jge6c44wLw&s",
+        "caption": "View of the Amphitheatre."
+      }
+    ]
+  },
+  "great-wall": {
+    "id": "great-wall",
+    "title": "Great Wall of China",
+    "location": "Mutianyu & Badaling",
+    "country": "China",
+    "description": "The Great Wall is not one wall but many — a series of fortifications built, rebuilt and connected over centuries, stretching in aggregate over 20,000 kilometres across northern China. The sections most visitors see date primarily from the Ming Dynasty (1368–1644), constructed of stone and brick with watchtowers positioned to keep line-of-sight signalling across the mountains. Standing on the wall at Mutianyu on an October morning, the forested ridgeline unspools in both directions as far as you can see, the wall undulating with it like something alive. It is simultaneously a feat of engineering and a monument to the vast human cost of its construction — hundreds of thousands of labourers died during building phases, many buried within the structure. UNESCO inscribed it in 1987, recognising both its architectural significance and its role as a symbol of China's historical determination to define and defend its civilisation.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=1200&q=80",
+        "caption": "Wall winding over mountain ridges"
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=1200&q=80",
+        "caption": "Watchtower at Mutianyu"
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?w=1200&q=80",
+        "caption": "Autumn foliage along the wall"
+      },
+      {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1529921879218-f99546de2e7d?w=1200&q=80",
+        "caption": "Misty morning on the battlement"
+      },
+      {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=1200&q=80",
+        "caption": "Steps ascending the steep section"
+      },
+      {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=1200&q=80",
+        "caption": "Wall at sunset silhouette"
+      }
+    ]
+  },
+  "taj-mahal": {
+    "id": "taj-mahal",
+    "title": "Taj Mahal",
+    "location": "Agra",
+    "country": "India",
+    "description": "The Taj Mahal earns every superlative ever written about it, which is remarkable given how thoroughly superlatives are abused in travel writing. Emperor Shah Jahan commissioned it in 1632 as a mausoleum for his wife Mumtaz Mahal, who died in childbirth, and the grief embedded in its conception gives the monument an emotional weight beyond its architectural perfection. It took 22 years to build — 20,000 artisans working simultaneously — using white Makrana marble inlaid with 28 types of precious and semi-precious stone in delicate pietra dura patterns of flowers and calligraphy. Its symmetry is absolute: the minarets, the gardens, the reflecting pool, the mosque and its mirror-image guest house on either side. The light changes the marble throughout the day from cool white at dawn to blush at sunset. It was designated a UNESCO World Heritage Site in 1983 and named one of the New Seven Wonders of the World in 2007.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&q=80",
+        "caption": "Taj Mahal at dawn"
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1590077428593-a55bb07c4665?w=1200&q=80",
+        "caption": "Reflection in the pool"
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1558618047-f4f6c4e1b046?w=1200&q=80",
+        "caption": "Pietra dura inlay detail"
+      },
+      {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1539768942893-daf3538e6e44?w=1200&q=80",
+        "caption": "The main gateway at sunrise"
+      },
+      {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1608236615542-5a4c7c4cd0fb?w=1200&q=80",
+        "caption": "Minaret at dusk"
+      },
+      {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=1200&q=80",
+        "caption": "Charbagh gardens in morning light"
+      }
+    ]
+  },
+  "ajanta": {
+    "id": "ajanta",
+    "title": "Ajanta Caves",
+    "location": "Aurangabad District",
+    "country": "India",
+    "description": "Cut into a horseshoe-shaped basalt cliff above a river gorge in Maharashtra, the Ajanta Caves are among the finest examples of early Buddhist art in the world. The 30 rock-cut caves — carved between the 2nd century BC and the 5th century AD — contain extraordinary paintings and sculptures depicting the life of the Buddha and the Jataka tales, stories of his previous incarnations. The murals are painted with a naturalism and emotional depth that feels startlingly modern: figures with expressive faces, swirling compositions, animals rendered with affectionate observation. Many of the paintings remained hidden beneath centuries of accumulated grime until a British hunting party rediscovered the caves in 1819. UNESCO inscribed them in 1983. The experience of moving through the dark interiors with a torch, watching these ancient images emerge from the rock, is one of profound intimacy with the past.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1590077428593-a55bb07c4665?w=1200&q=80",
+        "caption": "Cave entrance carved into cliff"
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&q=80",
+        "caption": "Ancient fresco detail"
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
+        "caption": "Buddha sculpture in the chaitya"
+      },
+      {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=1200&q=80",
+        "caption": "Gorge view from the caves"
+      },
+      {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=1200&q=80",
+        "caption": "Pillared monastery interior"
+      },
+      {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1539768942893-daf3538e6e44?w=1200&q=80",
+        "caption": "Cave 26 sculpted facade"
+      }
+    ]
+  },
+  "ellora": {
+    "id": "ellora",
+    "title": "Ellora Caves",
+    "location": "Aurangabad District",
+    "country": "India",
+    "description": "If Ajanta represents Buddhist art at its most refined, Ellora represents something rarer: a site where Buddhist, Hindu and Jain traditions are represented side by side, carved from the same volcanic escarpment over five centuries. The 34 caves were created between approximately 600 and 1000 AD, and the sheer ambition of the enterprise is staggering. Cave 16 — the Kailasa temple — is the single largest rock-cut structure in the world: an entire temple complex, two storeys high, carved top-down from a single monolith of basalt. Sculptors removed an estimated 400,000 tonnes of rock. The Kailasa is dedicated to Shiva and its iconography is extraordinarily rich — the battle of Lanka, Ravana lifting Mount Kailash, Shiva as the cosmic dancer. Walking through Ellora's caves feels like walking through the full arc of medieval Indian religious thought, with faith made physically solid in stone.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
+        "caption": "Kailasa temple from above"
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1590077428593-a55bb07c4665?w=1200&q=80",
+        "caption": "Rock-cut elephant sculptures"
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&q=80",
+        "caption": "Hindu cave sculpture relief"
+      },
+      {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=1200&q=80",
+        "caption": "Jain cave ornate ceiling"
+      },
+      {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=1200&q=80",
+        "caption": "Buddhist monastery courtyard"
+      },
+      {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=1200&q=80",
+        "caption": "Shiva temple inner sanctum"
+      }
+    ]
+  },
+  "stonehenge": {
+    "id": "stonehenge",
+    "title": "Stonehenge",
+    "location": "Salisbury Plain, Wiltshire",
+    "country": "United Kingdom",
+    "description": "Stonehenge exerts a gravitational pull on the imagination that its relatively modest physical scale cannot entirely explain. Standing on Salisbury Plain, the circle of standing stones — some weighing up to 25 tonnes, transported from Wales over 200 miles — raises questions that archaeology can only partially answer. Construction began around 3000 BC and continued in phases for over a millennium, suggesting the site held significance across many generations. The bluestones of the inner circle come from the Preseli Hills in Wales, a journey that in the Neolithic required either an extraordinary feat of overland transport or, as some researchers now argue, may have been partly facilitated by glaciers. What Stonehenge was for — burial site, solar observatory, place of healing pilgrimage — remains debated. On the summer solstice, the rising sun aligns precisely through the Heel Stone with the central altar. The mystery is not diminished by familiarity; it deepens.",
+    "galleryPhotos": [
+      {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1599833975787-5c143f373c30?w=1200&q=80",
+        "caption": "Stonehenge at dawn"
+      },
+      {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1520986606214-8b456906c813?w=1200&q=80",
+        "caption": "Trilithons against stormy sky"
+      },
+      {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=80",
+        "caption": "Solstice light through the stones"
+      },
+      {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80",
+        "caption": "Salisbury Plain grassland setting"
+      },
+      {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=1200&q=80",
+        "caption": "Aerial view of the circle"
+      },
+      {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1535207010348-71e47296838a?w=1200&q=80",
+        "caption": "Stone texture at close range"
+      }
+    ]
+  }
+}

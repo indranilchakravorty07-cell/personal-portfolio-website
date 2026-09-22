@@ -1,0 +1,30 @@
+.iucn-status-badge {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white);
+  padding: 0.3rem 0.75rem;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+/* Status-specific colours */
+.iucn-status-badge.iucn-vulnerable {
+  background: #8a6200;
+}
+
+.iucn-status-badge.iucn-endangered {
+  background: #a63200;
+}
+
+.iucn-status-badge.iucn-critically-endangered {
+  background: #7a0d0d;
+}
+
+.iucn-detail-page .blog-left {
+  padding-left: 0.2rem;
+}
