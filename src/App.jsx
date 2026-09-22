@@ -8,12 +8,11 @@ import WildlifeTravelBlog from './pages/WildlifeTravelBlog';
 import UnescoDetail from './pages/UnescoDetail';
 import WildlifeBlog from './pages/WildlifeBlog';
 import IucnDetail from './pages/IucnDetail';
-import { HashRouter } from 'react-router-dom';
 import './index.css';
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/"                 element={<Home />} />
@@ -25,6 +24,6 @@ export default function App() {
         <Route path="/wildlife/:blogId" element={<WildlifeBlog />} />
         <Route path="/iucn/:blogId"     element={<IucnDetail />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
