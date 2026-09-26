@@ -1,9 +1,9 @@
 export const heroSlidesDesktop = [
-  { id: 1, label: 'Indian Fox',           image: '/desktop/Hero/herodesk1.jpg' },
-  { id: 2, label: 'Mallikarjuna Temple',  image: '/desktop/Hero/herodesk2.jpg' },
-  { id: 3, label: 'Bengal Tiger',         image: '/desktop/Hero/herodesk3.jpg' },
-  { id: 4, label: 'Land of the Pharaohs', image: '/desktop/Hero/herodesk4.jpg' },
-  { id: 5, label: 'Sangameshwara Temple', image: '/desktop/Hero/herodesk5.jpg' },
+  { id: 1, label: 'Hero Desktop Image',           image: '/desktop/Hero/hero1.jpg' },
+  { id: 2, label: 'Hero Desktop Image',  image: '/desktop/Hero/hero2.jpg' },
+  { id: 3, label: 'Hero Desktop Image',         image: '/desktop/Hero/hero3.jpg' },
+  { id: 4, label: 'Hero Desktop Image', image: '/desktop/Hero/hero4.jpg' },
+  { id: 5, label: 'Hero Desktop Image', image: '/desktop/Hero/hero5.jpg' },
 ];
 
 export const heroSlidesMobile = [

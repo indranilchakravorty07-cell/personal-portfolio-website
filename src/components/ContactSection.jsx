@@ -36,7 +36,7 @@ export default function ContactSection() {
               </div>
               <div className="channel-detail">
                 <span className="channel-label">Phone</span>
-                <span className="channel-value">+91 +91 98218 73302</span>
+                <span className="channel-value">+91 98218 73302</span>
               </div>
               <span className="channel-arrow">→</span>
             </a>

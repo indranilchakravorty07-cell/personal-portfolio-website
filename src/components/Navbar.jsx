@@ -13,14 +13,17 @@ const NAV_LINKS = [
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const [hidden, setHidden] = useState(false);
-  const navigate = useNavigate();
   const location = useLocation();
   const isHome = location.pathname === '/';
+  // Transparent only on the home hero, and only before the user scrolls.
+  // Initialised from isHome directly so there's no flash of the wrong state
+  // on first paint.
+  const [transparent, setTransparent] = useState(isHome);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    if (!isHome) { setHidden(false); return; }
-    const onScroll = () => setHidden(window.scrollY < 80);
+    if (!isHome) { setTransparent(false); return; }
+    const onScroll = () => setTransparent(window.scrollY < 60);
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
@@ -53,7 +56,7 @@ const handleHashLink = (e, to) => {
 
   return (
     <>
-      <nav className={`navbar${hidden ? ' navbar--hidden' : ''}`}>
+      <nav className={`navbar${transparent ? ' navbar--transparent' : ''}`}>
         <NavLink to="/" className="navbar-logo" onClick={() => setOpen(false)}>
           Framedbyabard
         </NavLink>

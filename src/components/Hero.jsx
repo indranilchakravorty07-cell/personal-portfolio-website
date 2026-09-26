@@ -31,7 +31,7 @@ export default function Hero() {
       setCurrent(prev => (prev + 1) % slides.length);
     }, 4500);
     return () => clearInterval(timer);
-  }, [slides.length]);
+  }, [current, slides.length]);
 
   return (
     <section className="hero">

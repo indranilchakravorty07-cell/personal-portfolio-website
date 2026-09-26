@@ -1,35 +1,56 @@
 export const heritageSlides = [
   {
-    name: 'Machu Picchu, Peru',
-    description: 'A 15th-century Incan citadel perched high in the Andes, shrouded in mist and mystery.',
-    image: 'https://images.unsplash.com/photo-1526392060635-9d6019884377?w=900&q=80',
+    name: 'Luxor Temple, Egypt',
+    description: 'The illuminated monumental entrance of an ancient pharaonic complex on the east bank of the Nile River.',
+    image: '/desktop/Explore/Travel/travel1.jpg',
   },
   {
-    name: 'Delhi, India',
-    description: "Humayun's Tomb is a grand Mughal garden tomb and UNESCO World Heritage Site in New Delhi",
-    image: 'https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/images/blog/personal-loan/5-best-unesco-world-heritage-sites-in-india-717X404.jpg',
+    name: 'Hampton Court Palace, United Kingdom',
+    description: 'A grand Tudor-style royal residence framed by lush, blooming purple allium gardens.',
+    image: '/desktop/Explore/Travel/travel2.jpg',
   },
   {
-    name: 'Petra, Jordan',
-    description: 'The rose-red city half as old as time, carved directly into sandstone cliffs.',
-    image: 'https://images.unsplash.com/photo-1548786811-dd6e453ccca7?w=900&q=80',
+    name: 'Valley of the Kings, Egypt',
+    description: 'The interior burial corridor of an ancient pharaonic tomb, covered in detailed hieroglyphs and painted reliefs.',
+    image: '/desktop/Explore/Travel/travel3.jpg',
+  },
+  {
+    name: 'Brihadisvara Temple, India',
+    description: 'A majestic 11th-century Chola dynasty Hindu temple located in Gangaikonda Cholapuram, Tamil Nadu.',
+    image: '/desktop/Explore/Travel/travel4.jpg',
+  },
+  {
+    name: 'Basilica of San Francesco, Italy',
+    description: 'The striking 10th-century Romanesque crypt in Ravenna, permanently submerged in clear groundwater.',
+    image: '/desktop/Explore/Travel/travel5.jpg',
   },
 ];
 
+
 export const wildlifeSlides = [
   {
-    name: 'Bengal Tiger, Sundarbans',
-    description: 'The elusive apex predator of the mangrove delta, glimpsed only by the patient and the fortunate.',
-    image: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=900&q=80',
+    name: 'Bornean Peacock-Pheasant',
+    description: 'An endangered and highly elusive rainforest bird, famously known for its striking, iridescent blue-green eyespots.',
+    image: '/desktop/Explore/WildLife/wildlife1.jpg',
   },
   {
-    name: 'African Elephant, Amboseli',
-    description: "Moving in ancient matriarchal herds beneath the shadow of Kilimanjaro's snow-capped peak.",
-    image: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=900&q=80',
+    name: 'Bengal Tiger, Tadoba',
+    description: 'A powerful apex predator confidently pacing through a dry deciduous forest floor covered in autumn leaves.',
+    image: '/desktop/Explore/WildLife/wildlife2.jpg',
   },
   {
-    name: 'Snow Leopard, Himalayas',
-    description: 'The ghost of the mountains — spotted only after days of trekking high passes in bitter cold.',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1PEoN-y6Edwm72Gm45b7QX9vTD2zyxeS90lFdbk4IVw&s=10',
+    name: 'Red-Shanked Douc Langur',
+    description: 'Strikingly vibrant primates native to the deep canopies of Indochina, often called the "costumed apes" for their colorful appearance.',
+    image: '/desktop/Explore/WildLife/wildlife3.jpg',
+  },
+  {
+    name: 'Indian Desert Fox',
+    description: 'A pristine golden silhouette of a native fox standing along a rugged ridge line as the sun dips below the horizon.',
+    image: '/desktop/Explore/WildLife/wildlife4.jpg',
+  },
+  {
+    name: 'Chimpanzee, Kibale',
+    description: 'A highly intelligent primate sitting quietly on a lush jungle path, exhibiting human-like expressions and deep focus.',
+    image: '/desktop/Explore/WildLife/wildlife5.jpg',
   },
 ];
