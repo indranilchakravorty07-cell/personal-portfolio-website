@@ -1,9 +1,9 @@
 export const heroSlidesDesktop = [
-  { id: 1, label: 'Hero Desktop Image',           image: '/desktop/Hero/hero1.jpg' },
-  { id: 2, label: 'Hero Desktop Image',  image: '/desktop/Hero/hero2.jpg' },
-  { id: 3, label: 'Hero Desktop Image',         image: '/desktop/Hero/hero3.jpg' },
-  { id: 4, label: 'Hero Desktop Image', image: '/desktop/Hero/hero4.jpg' },
-  { id: 5, label: 'Hero Desktop Image', image: '/desktop/Hero/hero5.jpg' },
+  { id: 1, label: 'Hero Desktop Image',           image: 'https://images.framedbyabard.com/Desktop/Hero/hero1.jpg' },
+  { id: 2, label: 'Hero Desktop Image',  image: 'https://images.framedbyabard.com/Desktop/Hero/hero2.jpg' },
+  { id: 3, label: 'Hero Desktop Image',         image: 'https://images.framedbyabard.com/Desktop/Hero/hero3.jpg' },
+  { id: 4, label: 'Hero Desktop Image', image: 'https://images.framedbyabard.com/Desktop/Hero/hero4.jpg' },
+  { id: 5, label: 'Hero Desktop Image', image: 'https://images.framedbyabard.com/Desktop/Hero/hero5.jpg' },
 ];
 
 export const heroSlidesMobile = [
