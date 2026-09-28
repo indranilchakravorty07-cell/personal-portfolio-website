@@ -6,7 +6,7 @@ export default function AboutSection() {
       <div className="about-inner">
         <div className="about-image-col">
           <img
-            src="/about.jpeg"
+            src="https://images.framedbyabard.com/about.jpeg"
             alt="Traveller on a mountain trail"
             className="about-img"
           />
