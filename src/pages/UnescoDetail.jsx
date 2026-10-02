@@ -2,12 +2,13 @@ import { useNavigate, useParams } from 'react-router-dom';
 import unescoBlogs from '../data/unesco_blogs.json';
 import HeritageHeader from '../components/HeritageHeader';
 import BlogDetailLayout from '../components/BlogDetailLayout';
+import { getBlog } from '../utils/getBlog';
 import './styles/UnescoDetail.css';
 
 export default function UnescoDetail() {
   const { blogId } = useParams();
   const navigate = useNavigate();
-  const blog = unescoBlogs[blogId];
+  const blog = getBlog(unescoBlogs, blogId);
 
   return (
     <BlogDetailLayout
@@ -19,7 +20,7 @@ export default function UnescoDetail() {
       location={blog?.location}
       country={blog?.country}
       description={blog?.description}
-      photos={blog?.galleryPhotos}
+      photos={blog?.galleryPhotos ?? []}
       pageClass="unesco-detail-page"
       notFound={!blog ? { message: 'Entry not found.', onBack: () => navigate('/heritage') } : undefined}
     />

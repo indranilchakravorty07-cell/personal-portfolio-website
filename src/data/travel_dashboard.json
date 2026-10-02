@@ -2,77 +2,77 @@
   "travels": [
     {
       "id": 1,
-      "label": "Travel to the Land of Pharaohs",
-      "image": "https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=800&q=80",
-      "blogId": "egypt"
+      "label": "Durga Puja Celebration",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/durga_puja.jpg",
+      "blogId": "durgapuja"
     },
     {
       "id": 2,
-      "label": "Visit to Greece",
-      "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&q=80",
-      "blogId": "greece"
+      "label": "108 Shiva Temple",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/108_shiv_temple.jpg",
+      "blogId": "shivtemple"
     },
     {
       "id": 3,
-      "label": "Travel to Italy",
-      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
-      "blogId": "italy"
+      "label": "Kathgola Bagan Bari",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/Kathgola_Bagan_Bari.jpg",
+      "blogId": "kathgola"
     },
     {
       "id": 4,
-      "label": "Vietnam & Beyond",
-      "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=800&q=80",
-      "blogId": "vietnam"
+      "label": "Krishna Chandra Temple",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/Krishna_Chandraji_Temple.jpg",
+      "blogId": "krishnachandra"
     },
     {
       "id": 5,
-      "label": "England",
-      "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
-      "blogId": "england"
+      "label": "Katra Masjid Heritage",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/katra_masjid.jpg",
+      "blogId": "katramasjid"
     },
     {
       "id": 6,
-      "label": "China",
-      "image": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=800&q=80",
-      "blogId": "china"
+      "label": "Theatre of Epidaurus",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/Theathre_of_epidarus.jpg",
+      "blogId": "epidaurus"
     }
   ],
   "unesco": [
     {
       "id": 1,
-      "label": "Parthenon",
-      "image": "https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?w=800&q=80",
-      "blogId": "parthenon"
+      "label": "Base Court UK",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Base_Court_UK.jpg",
+      "blogId": "basecourt"
     },
     {
       "id": 2,
-      "label": "Great Wall of China",
-      "image": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=800&q=80",
-      "blogId": "great-wall"
+      "label": "Brihadisvara Temple",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Brihadisvara_Temple.jpg",
+      "blogId": "brihadisvara"
     },
     {
       "id": 3,
-      "label": "Taj Mahal",
-      "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80",
-      "blogId": "taj-mahal"
+      "label": "Gangaikonda Cholapuram Temple",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Gangaikonda_Cholapuram.jpg",
+      "blogId": "gangaikonda"
     },
     {
       "id": 4,
-      "label": "Ajanta Caves",
-      "image": "https://live.staticflickr.com/65535/15545867498_27009204d8_b.jpg",
-      "blogId": "ajanta"
+      "label": "Varlaam Monastery Russia",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Monastery_of_Varlaam.jpg",
+      "blogId": "varlaam"
     },
     {
       "id": 5,
-      "label": "Ellora",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNaBsPQztOpc81dxJKi3cRuvTSDCHzeFj4in4aMb1Ccw&s=10",
-      "blogId": "ellora"
+      "label": "Parthenon Ancient Greece",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Parthenon.jpg",
+      "blogId": "parthenon"
     },
     {
       "id": 6,
-      "label": "Stonehenge",
-      "image": "https://images.unsplash.com/photo-1599833975787-5c143f373c30?w=800&q=80",
-      "blogId": "stonehenge"
+      "label": "Winchester Cathedral England",
+      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Winchester_Cathedral.jpg",
+      "blogId": "winchester"
     }
   ]
 }

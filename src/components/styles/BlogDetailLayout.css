@@ -172,9 +172,7 @@
   max-width: min(90vw, 1100px);
   width: 100%;
   background: transparent;
-  border-radius: 4px;
-  overflow: hidden;
-  animation: scaleInModal 0.25s ease;
+  animation: fadeInOverlay 0.25s ease;   /* fade only, no scale */
 }
 
 @keyframes scaleInModal {
@@ -183,10 +181,14 @@
 }
 
 .photo-modal-content img {
-  width: 100%;
-  max-height: 78vh;
-  object-fit: contain;
   display: block;
+  max-width: 100%;
+  max-height: 78vh;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+  border-radius: 4px;
 }
 
 .photo-modal-caption {
@@ -235,6 +237,41 @@
   border-radius: 2px;
   cursor: pointer;
   font-family: 'Lora', serif;
+}
+
+/* ── Empty gallery ────────────────────────────────── */
+.blog-photos-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 50vh;
+  padding: 3rem 1.5rem;
+  border: 1.5px dashed var(--light-border);
+  border-radius: 6px;
+  background: var(--sage);
+  color: var(--slate);
+}
+
+.blog-photos-empty-icon {
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+  opacity: 0.7;
+}
+
+.blog-photos-empty h3 {
+  font-family: 'Lora', serif;
+  font-size: 1.4rem;
+  color: var(--dark);
+  margin: 0 0 0.4rem;
+}
+
+.blog-photos-empty p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.95rem;
+  margin: 0;
+  max-width: 28ch;
 }
 
 /* ── Responsive ───────────────────────────────────── */

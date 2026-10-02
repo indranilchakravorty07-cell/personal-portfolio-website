@@ -2,115 +2,115 @@
   "travelStories": [
     {
       "id": 1,
-      "label": "Tadoba-Andhari",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsmaKnRjpJQ9OzOc5DloUAu633uJrU8jVg-VYTb9M0Ug&s=10",
-      "blogId": "egypt"
+      "label": "Fox in the Wild",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/fox.jpg",
+      "blogId": "wildfox"
     },
     {
       "id": 2,
-      "label": "Masai Mara, Kenya",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCwmeLofqQ7RcHCEF1RkSV_qS1eWfDgotlduqqaDBgVg&s=10",
-      "blogId": "greece"
+      "label": "Bornean Orangutan",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/orangutan.jpg",
+      "blogId": "borneanorangutan"
     },
     {
       "id": 3,
-      "label": "Mt. Kilimanjaro",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxNk1jc_XpbSgyk181QVcKY9EUHZnZKvDDs2hNQk-rlu1l8QCg8sVKPGMO&s=10",
-      "blogId": "italy"
+      "label": "Tiger in the Wild",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/tiger.jpg",
+      "blogId": "wildtiger"
     },
     {
       "id": 4,
-      "label": "Namib Desert",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxYR61kETosWV2W7PPhI3iSQPWA3HBg-oh4qYAK-X7g&s=10",
-      "blogId": "vietnam"
+      "label": "Tiger Drinking Water",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/tiger_drinking_water.jpg",
+      "blogId": "tigerdrinking"
     },
     {
       "id": 5,
-      "label": "Kaziranga National Park",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA8eGa2uQrTleO5brJFADUPc29cqMPghw10G9FRec0Kw&s=10",
-      "blogId": "england"
+      "label": "Tiger Pair",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/tiger_pair.jpg",
+      "blogId": "tigerpair"
     },
     {
       "id": 6,
-      "label": "Serengeti National Park",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6mRmtF6H_66XrLi2J4KwV407ftDukTljzC1knIHc6qg&s=10",
-      "blogId": "china"
+      "label": "Tiger Sitting Quietly",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/tiger_sitting.jpg",
+      "blogId": "tigersitting"
     }
   ],
   "bigCats": [
     {
       "id": 1,
-      "label": "Bengal Tiger",
-      "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=800&q=80",
-      "blogId": "bengal-tiger"
+      "label": "Leopard Cubs",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/leopard_cubs.jpg",
+      "blogId": "leopardcubs"
     },
     {
       "id": 2,
-      "label": "Snow Leopard",
-      "image": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=800&q=80",
-      "blogId": "snow-leopard"
+      "label": "Resting Leopard",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/leopard_sit.jpg",
+      "blogId": "restingleopard"
     },
     {
       "id": 3,
-      "label": "African Lion",
-      "image": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=800&q=80",
-      "blogId": "african-lion"
+      "label": "Tiger Drinking Water",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/tiger_drink.jpg",
+      "blogId": "tigerdrink"
     },
     {
       "id": 4,
-      "label": "Leopard",
-      "image": "https://egh9bmzu58n.exactdn.com/wp-content/uploads/2024/11/Fierce-Felines-of-the-Jungle-Exploring-the-World-of-Wild-Cats-Jaguars-Tigers-Lions-Panthers-Servals-Leopards_2438808957.jpg?strip=all",
-      "blogId": "leopard"
+      "label": "Tiger on the Hunt",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/tiger_hunt.jpg",
+      "blogId": "tigerhunt"
     },
     {
       "id": 5,
-      "label": "Iberain Lynx",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-uu0a4u1Go2hgpeR4Pb34oO81uvU6ILdrU_nQjcOrziDPcKAg3vasxqg&s=10",
-      "blogId": "clouded-leopard"
+      "label": "Tiger in Water",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/tiger_in_water.jpg",
+      "blogId": "tigerwater"
     },
     {
       "id": 6,
-      "label": "Jaguar",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlIrLVEEHRR_-ncy5EpG02H2asqVPrlnn9ZaPM-8EihA6QhnSDvgTodotF&s=10",
-      "blogId": "cheetah"
+      "label": "Walking Bengal Tiger",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/tiger_walking.jpg",
+      "blogId": "tigerwalking"
     }
   ],
   "iucn": [
     {
       "id": 1,
-      "label": "Giant Panda",
-      "image": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800&q=80",
-      "blogId": "giant-panda"
+      "label": "Bornean Crested Fireback",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/Bornean_Crested_Fireback.jpg",
+      "blogId": "crestedfireback"
     },
     {
       "id": 2,
-      "label": "Amur Leopard",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG3B2m-5Bcd_cniwphziU9YqlF49HGt3tC5xDXUCDjng&s=10",
-      "blogId": "amur-leopard"
+      "label": "Egyptian Vulture",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/Egyptian_Vulture.jpg",
+      "blogId": "egyptianvulture"
     },
     {
       "id": 3,
-      "label": "Sumatran Orangutan",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-D5oqUWgUEYYWKfSJHda7Mu8f1eOwVPIvWPGmdG9uA&s=10",
-      "blogId": "sumatran-orangutan"
+      "label": "Hawk Eagle",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/Hawk_Eagle.jpg",
+      "blogId": "hawkeagle"
     },
     {
       "id": 4,
-      "label": "Hawksbill Sea Turtle",
-      "image": "https://images.unsplash.com/photo-1591025207163-942350e47db2?w=800&q=80",
-      "blogId": "hawksbill-turtle"
+      "label": "Indian Vulture",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/Indian_Vulture.jpg",
+      "blogId": "indianvulture"
     },
     {
       "id": 5,
-      "label": "Black Rhino",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1tocRvEDnc16OSAstL9UKHFamfxNNAe55paqmzQ0E5w&s=10",
-      "blogId": "black-rhino"
+      "label": "Maleo Bird",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/Maleo.jpg",
+      "blogId": "maleo"
     },
     {
       "id": 6,
-      "label": "Numbat",
-      "image": "https://nrl.iucnredlist.org/assets/home/numbat-2aa0215026b7d8b4e0b4012f7f728335b8a425326a2f2bff29231344d423e8b5.jpg",
-      "blogId": "vaquita"
+      "label": "White Rumped Vulture",
+      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/white_rumped_vultures.jpg",
+      "blogId": "whiterumpedvulture"
     }
   ]
 }

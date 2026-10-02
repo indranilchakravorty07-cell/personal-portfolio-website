@@ -28,3 +28,12 @@
 .iucn-detail-page .blog-left {
   padding-left: 0.2rem;
 }
+
+.iucn-status-badge.iucn-least-concern {
+  background: #1F5C3A;
+  color: #fff;
+}
+.iucn-status-badge.iucn-near-threatened {
+  background: #7a8a2e;
+  color: #fff;
+}

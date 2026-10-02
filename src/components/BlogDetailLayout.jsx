@@ -18,16 +18,19 @@ export default function BlogDetailLayout({
   const [modalPhoto, setModalPhoto] = useState(null);
 
   if (notFound) {
-    return (
-      <div className="blog-not-found">
-        {header}
-        <div className="blog-not-found-body">
-          <p>{notFound.message}</p>
-          <button onClick={notFound.onBack}>{backLabel}</button>
-        </div>
+  return (
+    <div className="blog-not-found">
+      {header}
+      <div className="blog-not-found-body">
+        <p>{notFound.message}</p>
+        <button onClick={notFound.onBack}>{backLabel}</button>
       </div>
-    );
-  }
+      {footer}
+    </div>
+  );
+}
+
+const safePhotos = Array.isArray(photos) ? photos : [];
 
   return (
     <div className={`travel-blog-page ${pageClass}`} style={{ marginTop: '-64px' }}>
@@ -54,19 +57,27 @@ export default function BlogDetailLayout({
 
         {/* RIGHT — Photo grid */}
         <section className="blog-right">
-          <div className="blog-photo-grid">
-            {photos.map(photo => (
-              <div
-                key={photo.id}
-                className="blog-photo-card"
-                onClick={() => setModalPhoto(photo)}
-              >
-                <img src={photo.image} alt={photo.caption} />
-                <div className="blog-photo-caption">{photo.caption}</div>
-              </div>
-            ))}
-          </div>
-        </section>
+  {safePhotos.length === 0 ? (
+    <div className="blog-photos-empty">
+      <div className="blog-photos-empty-icon">📷</div>
+      <h3>Images coming soon</h3>
+      <p>The photo gallery for this story is on its way. Check back shortly.</p>
+    </div>
+  ) : (
+    <div className="blog-photo-grid">
+      {safePhotos.map(photo => (
+        <div
+          key={photo.id}
+          className="blog-photo-card"
+          onClick={() => setModalPhoto(photo)}
+        >
+          <img src={photo.image} alt={photo.caption} />
+          <div className="blog-photo-caption">{photo.caption}</div>
+        </div>
+      ))}
+    </div>
+  )}
+</section>
       </div>
 
       {/* Modal */}

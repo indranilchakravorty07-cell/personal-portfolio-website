@@ -1,101 +1,56 @@
 {
-  "giant-panda": {
-    "id": "giant-panda",
-    "title": "Giant Panda — A Conservation Success, Carefully",
-    "location": "Sichuan & Shaanxi Provinces",
-    "country": "China",
+  "crestedfireback": {
+    "id": "crestedfireback",
+    "title": "Bornean Crested Fireback — Jewel of the Lowland Forest",
+    "location": "Lowland Rainforest, Borneo",
+    "country": "Malaysia / Indonesia",
     "iucnStatus": "Vulnerable",
-    "description": "The giant panda is perhaps the most globally recognised symbol of conservation, and its story is genuinely one of cautious hope. Downlisted from Endangered to Vulnerable by the IUCN in 2016 — a result of decades of intensive captive breeding programmes and habitat protection in China — it remains a species on the edge. Wild populations, concentrated in the mountain bamboo forests of Sichuan, Shaanxi, and Gansu, now number around 1,864 individuals. The challenge ahead is less numerical than ecological: panda populations are fragmented across isolated mountain ranges by agricultural land, meaning genetic exchange between groups is severely limited. The Sichuan Giant Panda Sanctuaries, a UNESCO World Heritage Site, represent one of the most biodiverse temperate forest systems on earth and are the core of wild panda territory. Photographing them in the wild requires either extraordinary luck or patience in the reserves — the animals are solitary and move quietly through dense bamboo stands that make visibility almost impossible.",
-    "galleryPhotos": [
-      { "id": 1, "image": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=1200&q=80", "caption": "A giant panda contentedly munches on a fresh bunch of green bamboo leaves." },
-      { "id": 2, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv721eR_patxAUxWbLss0gJxZGx2rZ3u8BKRvqdcLInQ&s=10", "caption": "A joyful panda sits upright with its mouth wide open, raising a paw as if waving hello." },
-      { "id": 3, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgsyPAGq6oax8bSVkJaxRBFr9KCM0TLdiOVZkfOcPrBQ&s=10", "caption": "A panda sits quietly among tall, dry brush and forest vegetation." },
-      { "id": 4, "image": "https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2026/08/29/b080f712-e1dd-476a-8a86-11335da613f0_d5e0f55d.jpg", "caption": "A fluffy panda rests its paws comfortably on top of a large rock against a mountainous green background." },
-      { "id": 5, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHzbfXW-WOgHaMCKETEZAhXnA30op_aKb6tqMiCve8A&s=10", "caption": " A panda balances playfully while climbing on a tangle of tree branches." },      
-      { "id": 6, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOcBXSy3CyBph2pPo402iIipyW6BWzmL5Xanunep_FOA&s=10", "caption": "A panda walks along a fallen log in its enclosure." },
-      { "id": 7, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOJhV8UkO2tnzLZcn25_GKqGZRgQBGeKT7dNjputcB6g&s", "caption": "A wild panda treks through a snowy forest landscape surrounded by dense bamboo." },
-      { "id": 8, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQamcbit0kDebnC4J1W-AorEraX7feG2e4LzTLgTFz1eQ&s=10", "caption": "Two young pandas relax together on a grassy slope while chewing on bamboo sticks." },
-      { "id": 9, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-LR_voT8GrRZ-cizxyucqVAgzOr3-R1lx8zVw-mdpmg&s=10", "caption": "A close-up profile shot captures a gentle panda looking calmly ahead." }      
-    ]
+    "description": "The male Bornean Crested Fireback is a striking bird, with glossy blue-black plumage, a fiery chestnut back and a bare red face, strutting through the forest floor with a confident, prancing step. It depends on intact lowland rainforest, exactly the habitat being lost fastest in Borneo to logging and palm oil expansion. Shy and ground-dwelling, it is hard to observe, and sightings usually come in the quiet early morning. Its population is declining as forests fragment, which is why it is considered Vulnerable. Protecting lowland forest corridors is the single most important step in keeping this beautiful pheasant alive.",
+    "galleryPhotos": []
   },
-  "amur-leopard": {
-    "id": "amur-leopard",
-    "title": "Amur Leopard — The Rarest Cat on Earth",
-    "location": "Primorsky Krai",
-    "country": "Russia / China Border",
+  "egyptianvulture": {
+    "id": "egyptianvulture",
+    "title": "Egyptian Vulture — The Clever Scavenger",
+    "location": "Across Africa, Southern Europe & South Asia",
+    "country": "India / Mediterranean",
+    "iucnStatus": "Endangered",
+    "description": "Easily recognised by its pale cream plumage and yellow face, the Egyptian Vulture is one of the few birds known to use tools, picking up stones to crack open ostrich eggs. It is also a long-distance migrant, with many European birds wintering in Africa and India. Despite its intelligence, the species has declined sharply from poisoning, collisions with power lines, and veterinary drugs that contaminate carcasses. Vultures are nature's clean-up crew, preventing disease by disposing of dead animals quickly. Losing them has real consequences for ecosystems and for people, which makes the recovery of this species an urgent priority.",
+    "galleryPhotos": []
+  },
+  "hawkeagle": {
+    "id": "hawkeagle",
+    "title": "Changeable Hawk-Eagle — Master of the Forest Edge",
+    "location": "Forests of the Indian Subcontinent",
+    "country": "India",
+    "iucnStatus": "Least Concern",
+    "description": "The Changeable Hawk-Eagle earns its name from its many colour forms, with crested and non-crested individuals and a wide range of plumage tones. It hunts from a concealed perch in the forest canopy, launching in a swift, powerful dash after birds, squirrels and lizards. In flight, its broad rounded wings and long tail give it great agility among trees. Though not currently threatened globally, it relies on healthy woodland, and local populations suffer when forests are cleared. Keeping an eye on the status of common species like this one is how conservation catches problems early.",
+    "galleryPhotos": []
+  },
+  "indianvulture": {
+    "id": "indianvulture",
+    "title": "Indian Vulture — A Collapse and a Comeback Attempt",
+    "location": "Indian Subcontinent",
+    "country": "India / Nepal",
     "iucnStatus": "Critically Endangered",
-    "description": "As of the most recent surveys, fewer than 120 Amur leopards exist on earth — making it officially the rarest wild cat species and one of the rarest large mammals of any kind. The population is confined to a narrow strip of temperate forest along the Russia–China border in Primorsky Krai, with a small spillover population in Jilin Province, China. The Amur leopard has adapted to survive winters that drop to minus 30°C: its coat grows longer and paler in winter months, and the rosettes are spaced more widely than in tropical subspecies. Recovery from what was once a population of under thirty individuals has been dramatic — the result of intensive anti-poaching operations, prey restocking programmes, and the establishment of Land of the Leopard National Park in 2012. But at 120 individuals the population remains acutely vulnerable to disease, inbreeding, and any disruption to its prey base of roe deer and sika deer. Every surviving individual is now known to researchers by name and rosette pattern.",
-    "galleryPhotos": [
-      { "id": 1, "image": "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?w=1200&q=80", "caption": "Amur leopard in winter coat" },
-      { "id": 2, "image": "https://images.unsplash.com/photo-1504173010664-32509107de45?w=1200&q=80", "caption": "In the snow forest, Primorsky" },
-      { "id": 3, "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=1200&q=80", "caption": "Camera trap at dusk" },
-      { "id": 4, "image": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=1200&q=80", "caption": "Rosette pattern — wider than tropical subspecies" },
-      { "id": 5, "image": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?w=1200&q=80", "caption": "Sub-adult male on patrol" },
-      { "id": 6, "image": "https://images.unsplash.com/photo-1574068468598-0f7a9dcbf1f5?w=1200&q=80", "caption": "Forest habitat near the border" }
-    ]
+    "description": "In the 1990s the Indian Vulture was among the most abundant large birds of prey in the world. Within a few years, populations crashed by more than ninety-five percent, and the cause was traced to diclofenac, a veterinary painkiller that was lethal to vultures feeding on treated cattle. The drug has since been banned for veterinary use in India, and captive breeding programmes now hold birds for eventual release. Recovery is slow, because vultures breed only once a year and raise a single chick. This species is a powerful lesson in how quickly an unseen threat can collapse a seemingly secure population.",
+    "galleryPhotos": []
   },
-  "sumatran-orangutan": {
-    "id": "sumatran-orangutan",
-    "title": "Sumatran Orangutan — The Person of the Forest",
-    "location": "Gunung Leuser National Park",
+  "maleo": {
+    "id": "maleo",
+    "title": "Maleo — The Bird That Buries Its Eggs",
+    "location": "Sulawesi",
     "country": "Indonesia",
-    "iucnStatus": "Critically Endangered",
-    "description": "Orang-utan means 'person of the forest' in Malay, and in the canopy of Gunung Leuser National Park you understand why. Sumatran orangutans are among the most intelligent non-human primates: they manufacture and use tools, communicate with sophisticated vocalisations, pass knowledge between generations, and demonstrate individual personality in ways that make the human observer feel uncomfortably recognised. The Sumatran subspecies is the more critically threatened of the two — Bornean orangutans share the Critically Endangered listing, but the Sumatran population, numbering around 13,800 individuals, faces the particular pressure of Sumatra's extraordinarily rapid deforestation rate. Between 1990 and 2010, Sumatra lost nearly half its lowland forest to palm oil expansion, logging, and agricultural conversion. Gunung Leuser remains a stronghold, and responsible ecotourism — observing animals at a distance, following strict protocols — is used to generate local economic incentive for forest protection.",
-    "galleryPhotos": [
-      { "id": 1, "image": "https://images.unsplash.com/photo-1567382284374-ad16e01bcb5f?w=1200&q=80", "caption": "Sumatran orangutan in canopy" },
-      { "id": 2, "image": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=1200&q=80", "caption": "Mother and infant, Gunung Leuser" },
-      { "id": 3, "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1200&q=80", "caption": "Tool use in the wild" },
-      { "id": 4, "image": "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?w=1200&q=80", "caption": "Flanged male at dawn" },
-      { "id": 5, "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=1200&q=80", "caption": "Rainforest canopy, Sumatra" },
-      { "id": 6, "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80", "caption": "Juvenile brachiating through trees" }
-    ]
+    "iucnStatus": "Endangered",
+    "description": "The Maleo is a striking, chicken-sized bird found only on the island of Sulawesi, and its breeding habits are extraordinary. Rather than incubating eggs, it buries them in warm volcanic or sun-heated sand and leaves them to hatch alone. The chicks emerge fully developed and ready to fly within hours. This strategy depends on a small number of traditional nesting grounds, which are threatened by egg collection, habitat loss and disturbance. Community-led protection programmes, where villagers help relocate and guard eggs, have offered hope. The Maleo shows how closely a species' survival can be tied to a few special places.",
+    "galleryPhotos": []
   },
-  "hawksbill-turtle": {
-    "id": "hawksbill-turtle",
-    "title": "Hawksbill Sea Turtle — Last of the Coral Architects",
-    "location": "Andaman Islands & Great Barrier Reef",
-    "country": "India / Australia",
+  "whiterumpedvulture": {
+    "id": "whiterumpedvulture",
+    "title": "White-rumped Vulture — Guardian of the Skies",
+    "location": "South & Southeast Asia",
+    "country": "India / Nepal / Cambodia",
     "iucnStatus": "Critically Endangered",
-    "description": "The hawksbill sea turtle has been swimming in the world's tropical oceans for roughly 100 million years — longer than the Himalayas have existed. It is named for its narrow, pointed beak, which allows it to reach into coral crevices for sea sponges that are toxic to virtually every other marine creature. In doing so, it performs a critical ecological function: removing sponges that would otherwise overgrow and smother coral reefs. The hawksbill's shell, once used to make the 'tortoiseshell' pattern prized in combs, frames, and jewellery, drove the species to the edge of extinction across the twentieth century. The trade is now internationally banned, but poaching continues in parts of the Caribbean and Southeast Asia. Nesting populations in the Andaman Islands and across the Indo-Pacific are monitored and protected, but beach erosion, plastic pollution, and entanglement in fishing gear continue to kill adults and hatchlings. Global population estimates suggest a 80% decline over the last century.",
-    "galleryPhotos": [
-      { "id": 1, "image": "https://images.unsplash.com/photo-1591025207163-942350e47db2?w=1200&q=80", "caption": "Hawksbill gliding over reef" },
-      { "id": 2, "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=1200&q=80", "caption": "Nesting female, Andamans" },
-      { "id": 3, "image": "https://images.unsplash.com/photo-1567382284374-ad16e01bcb5f?w=1200&q=80", "caption": "Hatchlings heading to sea" },
-      { "id": 4, "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80", "caption": "Feeding in coral crevice" },
-      { "id": 5, "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1200&q=80", "caption": "Shell detail — tortoiseshell pattern" },
-      { "id": 6, "image": "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?w=1200&q=80", "caption": "Great Barrier Reef habitat" }
-    ]
-  },
-  "black-rhino": {
-    "id": "black-rhino",
-    "title": "Black Rhino — Return from the Brink",
-    "location": "Etosha & Ol Pejeta",
-    "country": "Namibia / Kenya",
-    "iucnStatus": "Critically Endangered",
-    "description": "In 1970, an estimated 65,000 black rhinos ranged across sub-Saharan Africa. By 1995, poaching — driven almost entirely by demand for powdered horn in traditional medicine markets in Asia — had reduced the population to 2,410. It was one of the most dramatic declines of any large mammal in recorded history. Since then, intensive protection efforts, community conservation programmes, and legal translocation of animals to new reserves have brought the number back to around 6,000. It is a genuine conservation success, but it operates under constant threat: the economic incentive for poaching remains enormous, as black market rhino horn commands prices that exceed gold by weight. In Etosha National Park in Namibia and Ol Pejeta Conservancy in Kenya — where the last two northern white rhinos also live — black rhinos move through the landscape under the quiet watch of armed rangers. To photograph a black rhino at close range is a privilege that requires weeks of patience and the cooperation of communities whose livelihoods have become linked to the animals' survival.",
-    "galleryPhotos": [
-      { "id": 1, "image": "https://images.unsplash.com/photo-1561986272-7ba1d21c4d98?w=1200&q=80", "caption": "Black rhino at waterhole, Etosha" },
-      { "id": 2, "image": "https://images.unsplash.com/photo-1504173010664-32509107de45?w=1200&q=80", "caption": "Mother and calf, Ol Pejeta" },
-      { "id": 3, "image": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=1200&q=80", "caption": "Dust bath at dusk" },
-      { "id": 4, "image": "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?w=1200&q=80", "caption": "Anti-poaching patrol, dawn" },
-      { "id": 5, "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=1200&q=80", "caption": "Horn silhouette at sunset" },
-      { "id": 6, "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80", "caption": "Etosha salt pan landscape" }
-    ]
-  },
-  "vaquita": {
-    "id": "vaquita",
-    "title": "Vaquita — The World's Most Endangered Marine Mammal",
-    "location": "Gulf of California",
-    "country": "Mexico",
-    "iucnStatus": "Critically Endangered",
-    "description": "The vaquita — 'little cow' in Spanish — is a small porpoise found only in the northernmost part of Mexico's Gulf of California. It is, as of the most recent surveys, the world's most endangered marine mammal, with an estimated population of fewer than ten individuals. In 2011 there were estimated to be around 245. The catastrophic decline is almost entirely attributable to a single cause: entanglement in gillnets set to catch totoaba fish, whose swim bladders are smuggled to China where they command extraordinary prices as a luxury product. The vaquita is visually distinctive — dark rings around the eyes, dark patches on the lips, and a triangular dorsal fin — but seeing one now is extraordinarily rare. The Mexican government declared a permanent ban on gillnets across the vaquita's range in 2017, but enforcement in a remote and economically marginalised region has been inconsistent. International conservation organisations describe the vaquita as functionally extinct — meaning even if no more die, the remaining population is too small for viable recovery without extraordinary intervention.",
-    "galleryPhotos": [
-      { "id": 1, "image": "https://images.unsplash.com/photo-1591025207163-942350e47db2?w=1200&q=80", "caption": "Gulf of California, vaquita habitat" },
-      { "id": 2, "image": "https://images.unsplash.com/photo-1567382284374-ad16e01bcb5f?w=1200&q=80", "caption": "Rare surface sighting" },
-      { "id": 3, "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=1200&q=80", "caption": "Research vessel on patrol" },
-      { "id": 4, "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80", "caption": "Gillnet removal operation" },
-      { "id": 5, "image": "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?w=1200&q=80", "caption": "Acoustic monitoring buoy" },
-      { "id": 6, "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1200&q=80", "caption": "Conservation crew, dawn survey" }
-    ]
+    "description": "Once among the most numerous raptors on the planet, the White-rumped Vulture suffered the same collapse as its Indian relatives, losing the overwhelming majority of its population within a decade. Its distinctive white lower back is visible when the bird soars in thermals above villages and fields. Beyond diclofenac poisoning, it faces loss of nesting trees and shortage of safe food. Dedicated vulture safe zones, where poisonous drugs are controlled, are now helping a slow stabilisation in some regions. Seeing one overhead today is both a joy and a reminder that recovery is possible only with sustained effort.",
+    "galleryPhotos": []
   }
 }
