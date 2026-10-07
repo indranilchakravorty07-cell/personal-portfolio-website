@@ -8,9 +8,19 @@ import WildlifeTravelBlog from './pages/WildlifeTravelBlog';
 import UnescoDetail from './pages/UnescoDetail';
 import WildlifeBlog from './pages/WildlifeBlog';
 import IucnDetail from './pages/IucnDetail';
+import { useEffect } from 'react';
 import './index.css';
 
 export default function App() {
+   useEffect(() => {
+    const handleContextMenu = (e) => {
+      e.preventDefault();
+    };   
+    document.addEventListener('contextmenu', handleContextMenu);    
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+    };
+  }, []);
   return (
     <BrowserRouter>
       <Navbar />
