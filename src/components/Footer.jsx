@@ -1,3 +1,4 @@
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import './styles/Footer.css';
 
 const footerLinks = [
@@ -11,7 +12,7 @@ const footerLinks = [
   {
     heading: 'Wildlife',
     links: [
-      { label: 'Wildlife Blogs', href: 'wildlife' },
+      { label: 'Wildlife Blogs', href: '/wildlife' },
       { label: 'Big Cats of the World', href: '/wildlife' },
       { label: 'IUCN Red List Animals', href: 'https://www.iucnredlist.org/' },      
     ],
@@ -19,8 +20,8 @@ const footerLinks = [
   {
     heading: 'About Me',
     links: [
-      { label: 'Portfolio', href: '#about' },
-      { label: 'Contact', href: '#contact' },      
+      { label: 'About Indranil', href: '/#about' },
+      { label: 'Contact', href: '/#contact' },      
     ],
   },
 ];
@@ -32,7 +33,7 @@ const DEV_WHATSAPP = '918777402308';     // developer — +91 87774 02308
 
 function WhatsAppIcon(props) {
   return (
-    <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
       <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.76.46 3.48 1.34 5L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.02a8.1 8.1 0 01-4.13-1.13l-.3-.18-3.11.81.83-3.03-.2-.31a8.12 8.12 0 01-1.24-4.28c0-4.48 3.65-8.13 8.15-8.13 2.18 0 4.22.85 5.76 2.39a8.08 8.08 0 012.38 5.75c0 4.48-3.65 8.11-8.14 8.11zm4.47-6.09c-.24-.12-1.44-.71-1.67-.8-.22-.08-.38-.12-.55.12-.16.24-.63.8-.77.97-.14.16-.28.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.64-1.21-1.44-1.35-1.68-.14-.24-.02-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42-.14-.01-.3-.01-.46-.01s-.42.06-.64.3c-.22.24-.85.83-.85 2.02 0 1.19.87 2.34.99 2.5.12.16 1.71 2.6 4.14 3.65.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28z" />
     </svg>
   );
@@ -78,6 +79,15 @@ const socialLinks = [
 
 export default function Footer() {
   const year = new Date().getFullYear();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const goToSection = (e, id) => {
+    e.preventDefault();
+    const scroll = () => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    if (location.pathname === '/') scroll();
+    else { navigate('/'); setTimeout(scroll, 300); }
+  };
 
   return (
     <footer className="footer">
@@ -107,31 +117,26 @@ export default function Footer() {
             </div>
           </div>
 
-          <nav className="footer-nav">
+          <nav className="footer-nav" aria-label="Footer">
             {footerLinks.map(col => (
               <div key={col.heading} className="footer-col">
                 <p className="footer-col-heading">{col.heading}</p>
                 <ul>
                   {col.links.map(link => (
                     <li key={link.label}>
-                      <a
-                        href={link.href}
-                        target={link.href.startsWith('http') ? '_blank' : undefined}
-                        rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                      >
-                        {link.label}
-                        {link.href.startsWith('http') && (
-                          <svg
-                            className="ext-icon"
-                            viewBox="0 0 12 12"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="1.5"
-                          >
+                      {link.href.startsWith('http') ? (
+                        <a href={link.href} target="_blank" rel="noopener noreferrer">
+                          {link.label}
+                          <svg className="ext-icon" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                             <path d="M2 10L10 2M10 2H5M10 2v5" />
                           </svg>
-                        )}
-                      </a>
+                          <span className="sr-only"> (opens in a new tab)</span>
+                        </a>
+                      ) : link.href.includes('#') ? (
+                        <a href={link.href} onClick={(e) => goToSection(e, link.href.split('#')[1])}>{link.label}</a>
+                      ) : (
+                        <Link to={link.href}>{link.label}</Link>
+                      )}
                     </li>
                   ))}
                 </ul>
@@ -162,8 +167,8 @@ export default function Footer() {
             </span>
           </p>
           <div className="footer-bottom-links">
-            <a href="#">Go To Top</a>
-            <a href="#">Usage Rights</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>Go To Top</a>
+            
           </div>
         </div>
       </div>

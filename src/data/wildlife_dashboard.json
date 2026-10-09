@@ -3,37 +3,37 @@
     {
       "id": 1,
       "label": "Fox in the Wild",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/fox.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/TRAVEL_STORIES/fox.jpg",
       "blogId": "wildfox"
     },
     {
       "id": 2,
       "label": "Bornean Orangutan",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/orangutan.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/TRAVEL_STORIES/orangutan.jpg",
       "blogId": "borneanorangutan"
     },
     {
       "id": 3,
       "label": "Tiger in the Wild",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/tiger.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/TRAVEL_STORIES/tiger.jpg",
       "blogId": "wildtiger"
     },
     {
       "id": 4,
       "label": "Tiger Drinking Water",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/tiger_drinking_water.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/TRAVEL_STORIES/tiger_drinking_water.jpg",
       "blogId": "tigerdrinking"
     },
     {
       "id": 5,
       "label": "Tiger Pair",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/tiger_pair.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/TRAVEL_STORIES/tiger_pair.jpg",
       "blogId": "tigerpair"
     },
     {
       "id": 6,
       "label": "Tiger Sitting Quietly",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/TRAVEL_STORIES/tiger_sitting.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/TRAVEL_STORIES/tiger_sitting.jpg",
       "blogId": "tigersitting"
     }
   ],
@@ -41,37 +41,37 @@
     {
       "id": 1,
       "label": "Leopard Cubs",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/leopard_cubs.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/BIG_CATS/leopard_cubs.jpg",
       "blogId": "leopardcubs"
     },
     {
       "id": 2,
       "label": "Resting Leopard",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/leopard_sit.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/BIG_CATS/leopard_sit.jpg",
       "blogId": "restingleopard"
     },
     {
       "id": 3,
       "label": "Tiger Drinking Water",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/tiger_drink.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/BIG_CATS/tiger_drink.jpg",
       "blogId": "tigerdrink"
     },
     {
       "id": 4,
       "label": "Tiger on the Hunt",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/tiger_hunt.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/BIG_CATS/tiger_hunt.jpg",
       "blogId": "tigerhunt"
     },
     {
       "id": 5,
       "label": "Tiger in Water",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/tiger_in_water.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/BIG_CATS/tiger_in_water.jpg",
       "blogId": "tigerwater"
     },
     {
       "id": 6,
       "label": "Walking Bengal Tiger",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/BIG_CATS/tiger_walking.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/BIG_CATS/tiger_walking.jpg",
       "blogId": "tigerwalking"
     }
   ],
@@ -79,37 +79,37 @@
     {
       "id": 1,
       "label": "Bornean Crested Fireback",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/Bornean_Crested_Fireback.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/IUCN_RED_LIST/Bornean_Crested_Fireback.jpg",
       "blogId": "crestedfireback"
     },
     {
       "id": 2,
       "label": "Egyptian Vulture",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/Egyptian_Vulture.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/IUCN_RED_LIST/Egyptian_Vulture.jpg",
       "blogId": "egyptianvulture"
     },
     {
       "id": 3,
       "label": "Hawk Eagle",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/Hawk_Eagle.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/IUCN_RED_LIST/Hawk_Eagle.jpg",
       "blogId": "hawkeagle"
     },
     {
       "id": 4,
       "label": "Indian Vulture",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/Indian_Vulture.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/IUCN_RED_LIST/Indian_Vulture.jpg",
       "blogId": "indianvulture"
     },
     {
       "id": 5,
       "label": "Maleo Bird",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/Maleo.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/IUCN_RED_LIST/Maleo.jpg",
       "blogId": "maleo"
     },
     {
       "id": 6,
       "label": "White Rumped Vulture",
-      "image": "https://images.framedbyabard.com/Dashboards/Wildlife/IUCN_RED_LIST/white_rumped_vultures.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Wildlife/IUCN_RED_LIST/white_rumped_vultures.jpg",
       "blogId": "whiterumpedvulture"
     }
   ]

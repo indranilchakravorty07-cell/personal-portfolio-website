@@ -1,9 +1,9 @@
 export const heroSlidesDesktop = [
-  { id: 1, label: 'Hero Desktop Image',           image: 'https://images.framedbyabard.com/Desktop/Hero/hero1.jpg' },
-  { id: 2, label: 'Hero Desktop Image',  image: 'https://images.framedbyabard.com/Desktop/Hero/hero2.jpg' },
-  { id: 3, label: 'Hero Desktop Image',         image: 'https://images.framedbyabard.com/Desktop/Hero/hero3.jpg' },
-  { id: 4, label: 'Hero Desktop Image', image: 'https://images.framedbyabard.com/Desktop/Hero/hero4.jpg' },
-  { id: 5, label: 'Hero Desktop Image', image: 'https://images.framedbyabard.com/Desktop/Hero/hero5.jpg' },
+  { id: 1, label: 'Wildlife and travel photograph by Indranil Chakravorty',           image: 'https://images.framedbyabard.com/cdn-cgi/image/format=auto/Desktop/Hero/hero1.jpg' },
+  { id: 2, label: 'Wildlife and travel photograph by Indranil Chakravorty',  image: 'https://images.framedbyabard.com/cdn-cgi/image/format=auto/Desktop/Hero/hero2.jpg' },
+  { id: 3, label: 'Wildlife and travel photograph by Indranil Chakravorty',         image: 'https://images.framedbyabard.com/cdn-cgi/image/format=auto/Desktop/Hero/hero3.jpg' },
+  { id: 4, label: 'Wildlife and travel photograph by Indranil Chakravorty', image: 'https://images.framedbyabard.com/cdn-cgi/image/format=auto/Desktop/Hero/hero4.jpg' },
+  { id: 5, label: 'Wildlife and travel photograph by Indranil Chakravorty', image: 'https://images.framedbyabard.com/cdn-cgi/image/format=auto/Desktop/Hero/hero5.jpg' },
 ];
 
 export const heroSlidesMobile = [

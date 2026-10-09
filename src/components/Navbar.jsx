@@ -32,6 +32,13 @@ export default function Navbar() {
   useEffect(() => { setOpen(false); }, [location.pathname]);
 
   useEffect(() => {
+    if (!open) return;
+    const onKey = (e) => { if (e.key === 'Escape') setOpen(false); };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
+  }, [open]);
+
+  useEffect(() => {
     document.body.style.overflow = open ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
   }, [open]);
@@ -56,7 +63,7 @@ const handleHashLink = (e, to) => {
 
   return (
     <>
-      <nav className={`navbar${transparent ? ' navbar--transparent' : ''}`}>
+      <nav aria-label="Main" className={`navbar${transparent ? ' navbar--transparent' : ''}`}>
         <NavLink to="/" className="navbar-logo" onClick={() => setOpen(false)}>
           Framedbyabard
         </NavLink>
@@ -78,22 +85,24 @@ const handleHashLink = (e, to) => {
         </ul>
 
         <button
+          type="button"
+          aria-controls="mobile-menu"
           className={`navbar-hamburger ${open ? 'open' : ''}`}
           onClick={() => setOpen(v => !v)}
-          aria-label="Toggle menu"
+          aria-label={open ? 'Close menu' : 'Open menu'}
           aria-expanded={open}
         >
-          <span />
-          <span />
-          <span />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
         </button>
       </nav>
 
-      <div className={`navbar-overlay ${open ? 'visible' : ''}`} onClick={() => setOpen(false)} />
+      <div className={`navbar-overlay ${open ? 'visible' : ''}`} onClick={() => setOpen(false)} aria-hidden="true" />
 
       {/* Mobile drawer — single, no duplicate wrapper */}
-      <div className={`navbar-drawer ${open ? 'open' : ''}`}>
-        <button className="navbar-drawer-close" onClick={() => setOpen(false)} aria-label="Close menu">×</button>
+      <div id="mobile-menu" className={`navbar-drawer ${open ? 'open' : ''}`} aria-hidden={!open}>
+        <button type="button" className="navbar-drawer-close" onClick={() => setOpen(false)} aria-label="Close menu">×</button>
         <ul>
           {NAV_LINKS.map(({ label, to }) => (
             <li key={label}>

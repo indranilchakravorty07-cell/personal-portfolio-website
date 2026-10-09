@@ -5,6 +5,7 @@ import PhotoGrid from '../components/PhotoGrid';
 import dashboard from '../data/wildlife_dashboard.json';
 import './styles/Wildlife.css';
 import Footer from '../components/Footer';
+import Seo from '../seo/Seo';
 
 export default function Wildlife() {
   const navigate = useNavigate();
@@ -15,6 +16,10 @@ export default function Wildlife() {
 
   return (
     <div className="wildlife-page" style={{ marginTop: '-64px' }}>
+      <Seo
+        title="Wildlife Photography – Big Cats & IUCN Red List | Indranil Chakravorty"
+        description="Wildlife photography by Indranil Chakravorty: big cats, critically endangered IUCN Red List species and wildlife travel stories."
+      />
       <WildlifeHeader />
 
       <div className="wildlife-body three-col">

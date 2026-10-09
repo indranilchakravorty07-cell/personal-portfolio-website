@@ -4,6 +4,7 @@ import HeritageSection from '../components/HeritageSection';
 import dashboard from '../data/travel_dashboard.json';
 import './styles/Heritage.css';
 import Footer from '../components/Footer';
+import Seo from '../seo/Seo';
 
 export default function Heritage() {
   const navigate = useNavigate();
@@ -18,6 +19,10 @@ export default function Heritage() {
 
   return (
     <div className="heritage-page" style={{ marginTop: '-64px' }}>
+      <Seo
+        title="Heritage & Travel Photography – Indranil Chakravorty | Framedbyabard"
+        description="Travel stories and UNESCO World Heritage Sites photographed by Indranil Chakravorty – from Bengal's temples to ancient wonders around the world."
+      />
       <HeritageHeader />
       <div className="heritage-body">
         <HeritageSection

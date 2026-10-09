@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Inter:wght@300;400;500&display=swap');
-
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -55,4 +53,103 @@ h1, h2, h3 {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.4);
+}
+/* ───────────────────────── Mobile & accessibility layer ───────────────────────── */
+
+:root { --muted: #5A635D; }  /* darker than the old #888 fallback: passes WCAG AA contrast on the cream background */
+
+/* 1) The blue/grey flash when you tap something on a phone ("tap highlight").
+      Removed everywhere; real keyboard focus is shown instead with :focus-visible below. */
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+a, button, [role="button"], input, select, textarea, summary, label, img {
+  -webkit-tap-highlight-color: transparent;
+}
+/* removes the 300ms tap delay and double-tap-zoom on controls */
+a, button, [role="button"] { touch-action: manipulation; }
+/* stops text/icons inside buttons from being "selected" by a long press or quick double tap */
+button, .hero-arrow, .hero-dot, .navbar-hamburger, .slider-controls, .explore-clickable {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+/* the browser's default focus ring on mouse/touch click is what draws the square around round buttons */
+button:focus:not(:focus-visible),
+a:focus:not(:focus-visible),
+[tabindex]:focus:not(:focus-visible) { outline: none; }
+
+/* keyboard users still get a clear ring */
+:focus-visible {
+  outline: 3px solid #C49A45;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.hero-arrow:focus-visible,
+.hero-dot:focus-visible,
+.slider-controls button:focus-visible,
+.dot:focus-visible,
+.photo-modal-close:focus-visible { border-radius: 50%; }
+
+/* buttons that replaced <div>s: look exactly like before */
+button.photo-card, button.blog-photo-card {
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  background: none;
+  display: block;
+  width: 100%;
+}
+button.blog-photo-card { background: #f0ede8; }
+button.photo-card .photo-overlay { text-align: left; }
+
+/* skip link + screen-reader-only text */
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 1rem;
+  z-index: 3000;
+  background: #F5ECD7;
+  color: #3E1F0E;
+  padding: 0.7rem 1.1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-link:focus { top: 1rem; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+main:focus { outline: none; }
+
+.not-found {
+  min-height: 70vh;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 1rem; text-align: center; padding: 3rem 1.5rem;
+  color: #F5ECD7;
+}
+.not-found a { color: #C49A45; }
+
+/* Respect "reduce motion" system setting */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Comfortable (44px) touch targets on phones */
+@media (max-width: 900px) {
+  .navbar-hamburger { padding: 10px; }
+  .navbar-drawer-close { min-width: 44px; min-height: 44px; font-size: 2rem; }
+  .slider-controls button { width: 44px; height: 44px; }
+  .blog-back-btn { min-height: 44px; }
+  .photo-modal-close { width: 44px; height: 44px; font-size: 1.1rem; }
 }

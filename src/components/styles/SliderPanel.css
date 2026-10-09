@@ -108,6 +108,9 @@
 }
 
 .dot {
+  position: relative;
+  border: 0;
+  padding: 0;
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -115,6 +118,8 @@
   cursor: pointer;
   transition: background 0.2s, transform 0.2s;
 }
+
+.dot::before { content: ''; position: absolute; inset: -19px -6px; }
 
 .dot.active {
   background: var(--accent, #D4A853);

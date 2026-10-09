@@ -3,11 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#3E1F0E" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>Framedbyabard</title>    
+
+    <!-- Primary SEO (Home). Other pages override these at runtime via src/seo/Seo.jsx -->
+    <title>Indranil Chakravorty | Wildlife &amp; Travel Photographer – Framedbyabard</title>
+    <meta name="description" content="Framedbyabard is the official portfolio of Indranil Chakravorty, a wildlife and travel photographer documenting big cats, endangered species and the world's heritage sites." />
+    <meta name="author" content="Indranil Chakravorty" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://framedbyabard.com/" />
+
+    <!-- Open Graph / Twitter (link previews on WhatsApp, Facebook, LinkedIn, X) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Framedbyabard" />
+    <meta property="og:title" content="Indranil Chakravorty | Wildlife &amp; Travel Photographer – Framedbyabard" />
+    <meta property="og:description" content="Wildlife, big cats, endangered species and heritage travel – photography by Indranil Chakravorty." />
+    <meta property="og:url" content="https://framedbyabard.com/" />
+    <meta property="og:image" content="https://images.framedbyabard.com/Desktop/Hero/hero1.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Indranil Chakravorty | Wildlife &amp; Travel Photographer" />
+    <meta name="twitter:description" content="Wildlife, big cats, endangered species and heritage travel – photography by Indranil Chakravorty." />
+    <meta name="twitter:image" content="https://images.framedbyabard.com/Desktop/Hero/hero1.jpg" />
+
+    <!-- Speed: connect early to the image host, preload the first desktop hero, load fonts without blocking -->
+    <link rel="preconnect" href="https://images.framedbyabard.com" crossorigin />
+    <link rel="preload" as="image" href="https://images.framedbyabard.com/Desktop/Hero/hero1.jpg" media="(min-width: 901px)" fetchpriority="high" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lora:wght@400;600;700&family=Nunito+Sans:wght@400;600&display=swap" />
+
+    <!-- Structured data: tells Google that "Indranil Chakravorty" and "Framedbyabard" are the same person/brand -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://framedbyabard.com/#website",
+          "url": "https://framedbyabard.com/",
+          "name": "Framedbyabard",
+          "alternateName": ["Framed by Abard", "Indranil Chakravorty Photography"],
+          "inLanguage": "en",
+          "publisher": { "@id": "https://framedbyabard.com/#person" }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://framedbyabard.com/#person",
+          "name": "Indranil Chakravorty",
+          "alternateName": ["Framedbyabard", "Indranil Chakraborty"],
+          "url": "https://framedbyabard.com/",
+          "image": "https://images.framedbyabard.com/about.jpeg",
+          "jobTitle": "Wildlife and Travel Photographer",
+          "description": "Wildlife and travel photographer and conservationist with over 25 years of experience, documenting big cats, critically endangered species and heritage sites.",
+          "knowsAbout": ["Wildlife photography", "Travel photography", "Big cats", "IUCN Red List species", "UNESCO World Heritage Sites", "Wildlife conservation"],
+          "sameAs": [
+            "https://www.instagram.com/indranilchakravorty/",
+            "https://www.facebook.com/indranil.chakravorty.3",
+            "https://www.linkedin.com/in/indranil-chakravorty-4360519/"
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Shown to crawlers / users without JavaScript; replaced as soon as React mounts -->
+      <noscript>
+        <h1>Indranil Chakravorty – Wildlife &amp; Travel Photographer (Framedbyabard)</h1>
+        <p>Framedbyabard is the portfolio of Indranil Chakravorty, covering wildlife, big cats, IUCN Red List species and heritage travel.</p>
+        <nav>
+          <a href="/heritage">Heritage</a> · <a href="/wildlife">Wildlife</a>
+        </nav>
+      </noscript>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

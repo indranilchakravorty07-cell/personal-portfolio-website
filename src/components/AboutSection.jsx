@@ -6,13 +6,15 @@ export default function AboutSection() {
       <div className="about-inner">
         <div className="about-image-col">
           <img
-            src="https://images.framedbyabard.com/about.jpeg"
-            alt="Traveller on a mountain trail"
+            src="https://images.framedbyabard.com/cdn-cgi/image/format=auto/about.jpeg"
+            alt="Indranil Chakravorty, wildlife and travel photographer (Framedbyabard)"
+            loading="lazy"
+            decoding="async"
             className="about-img"
           />
         </div>
         <div className="about-text-col">
-          <span className="about-label">About Me</span>
+          <span className="about-label">About Indranil Chakravorty</span>
           <h2>A traveller with a camera and too many notebooks</h2>
           <p>
             Indranil has been a passionate wildlife photographer for more than

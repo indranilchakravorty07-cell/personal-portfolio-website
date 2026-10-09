@@ -3,37 +3,37 @@
     {
       "id": 1,
       "label": "Durga Puja Celebration",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/durga_puja.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/Travels/durga_puja.jpg",
       "blogId": "durgapuja"
     },
     {
       "id": 2,
       "label": "108 Shiva Temple",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/108_shiv_temple.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/Travels/108_shiv_temple.jpg",
       "blogId": "shivtemple"
     },
     {
       "id": 3,
       "label": "Kathgola Bagan Bari",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/Kathgola_Bagan_Bari.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/Travels/Kathgola_Bagan_Bari.jpg",
       "blogId": "kathgola"
     },
     {
       "id": 4,
       "label": "Krishna Chandra Temple",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/Krishna_Chandraji_Temple.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/Travels/Krishna_Chandraji_Temple.jpg",
       "blogId": "krishnachandra"
     },
     {
       "id": 5,
       "label": "Katra Masjid Heritage",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/katra_masjid.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/Travels/katra_masjid.jpg",
       "blogId": "katramasjid"
     },
     {
       "id": 6,
       "label": "Theatre of Epidaurus",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/Travels/Theathre_of_epidarus.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/Travels/Theathre_of_epidarus.jpg",
       "blogId": "epidaurus"
     }
   ],
@@ -41,37 +41,37 @@
     {
       "id": 1,
       "label": "Base Court UK",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Base_Court_UK.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Base_Court_UK.jpg",
       "blogId": "basecourt"
     },
     {
       "id": 2,
       "label": "Brihadisvara Temple",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Brihadisvara_Temple.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Brihadisvara_Temple.jpg",
       "blogId": "brihadisvara"
     },
     {
       "id": 3,
       "label": "Gangaikonda Cholapuram Temple",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Gangaikonda_Cholapuram.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Gangaikonda_Cholapuram.jpg",
       "blogId": "gangaikonda"
     },
     {
       "id": 4,
       "label": "Varlaam Monastery Russia",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Monastery_of_Varlaam.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Monastery_of_Varlaam.jpg",
       "blogId": "varlaam"
     },
     {
       "id": 5,
       "label": "Parthenon Ancient Greece",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Parthenon.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Parthenon.jpg",
       "blogId": "parthenon"
     },
     {
       "id": 6,
       "label": "Winchester Cathedral England",
-      "image": "https://images.framedbyabard.com/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Winchester_Cathedral.jpg",
+      "image": "https://images.framedbyabard.com/cdn-cgi/image/format=auto/Dashboards/Heritage/UNESCO_World_Heritage_Sites/Winchester_Cathedral.jpg",
       "blogId": "winchester"
     }
   ]

@@ -1,17 +1,20 @@
 import { useState, useEffect, useCallback } from 'react';
+import usePrefersReducedMotion from '../utils/usePrefersReducedMotion';
 import './styles/SliderPanel.css';
 
 export default function SliderPanel({ title, slides, accentColor }) {
   const [current, setCurrent] = useState(0);
+  const reducedMotion = usePrefersReducedMotion();
 
   const next = useCallback(() => {
     setCurrent(prev => (prev + 1) % slides.length);
   }, [slides.length]);
 
   useEffect(() => {
+    if (reducedMotion) return;
     const timer = setTimeout(next, 4000);
     return () => clearTimeout(timer);
-  }, [current, next]);
+  }, [current, next, reducedMotion]);
 
   const prev = () => {
     setCurrent(prev => (prev - 1 + slides.length) % slides.length);
@@ -28,7 +31,10 @@ export default function SliderPanel({ title, slides, accentColor }) {
           <img
             key={i}
             src={s.image}
-            alt={s.name}
+            alt={i === current ? s.name : ''}
+            aria-hidden={i !== current}
+            loading={i === 0 ? 'eager' : 'lazy'}
+            decoding="async"
             className={`slider-img ${i === current ? 'active' : ''}`}
           />
         ))}
@@ -39,17 +45,20 @@ export default function SliderPanel({ title, slides, accentColor }) {
           <p className="slider-desc">{slide.description}</p>
         </div>
         <div className="slider-controls" onClick={stopProp}>
-          <button onClick={prev} aria-label="Previous">&#8592;</button>
+          <button type="button" onClick={prev} aria-label="Previous slide">&#8592;</button>
           <div className="slider-dots">
             {slides.map((_, i) => (
-              <span
+              <button
+                type="button"
                 key={i}
                 className={`dot ${i === current ? 'active' : ''}`}
                 onClick={() => setCurrent(i)}
+                aria-label={`Go to slide ${i + 1}`}
+                aria-current={i === current ? 'true' : undefined}
               />
             ))}
           </div>
-          <button onClick={next} aria-label="Next">&#8594;</button>
+          <button type="button" onClick={next} aria-label="Next slide">&#8594;</button>
         </div>
       </div>
     </div>

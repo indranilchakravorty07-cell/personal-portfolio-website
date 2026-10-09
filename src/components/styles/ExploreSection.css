@@ -65,6 +65,7 @@
   transition: opacity 0.25s ease, transform 0.25s ease;
   pointer-events: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
 }
 
 .explore-clickable:hover .explore-click-hint {
