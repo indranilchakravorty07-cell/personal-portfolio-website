@@ -7,10 +7,9 @@ export const heroSlidesDesktop = [
 ];
 
 export const heroSlidesMobile = [
-  { id: 1, label: 'Land of the Pharaohs', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLWqUlA9NcOQI8DlXbLardq_DAM2fpv44htJGf-GzFhxj19qfkRr9o8CL2&s=10' },
-  { id: 2, label: 'Visit to Greece',      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPM2EtVf5_HDFG24ccqXEGqps95qJtaZkX2Gj44XAQAJvJqoKcDM6rEV4&s=10' },
-  { id: 3, label: 'Travel to Italy',      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT19xgrXPlfI7KDeUtG7yM00N_dMGqI-UCidbfMQE7t5g&s=10' },
-  { id: 4, label: 'Vietnam & Beyond',     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvR4YhDLVv9Ra-attvGJF4BpK07bgygIaLIhRotHK1qA&s=10' },
-  { id: 5, label: 'England',              image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjVt0fx5rGQXRsQE2mHGsGaFPAG4xk2CQnVbGecTPNg&s=10' },
-  { id: 6, label: 'China',               image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHQekkFiS4ILnY4_16EgJvgh_WBVLwKukMoU_vRo54mw&s=10' },
+  { id: 1, label: 'Land of the Pharaohs', image: 'https://images.framedbyabard.com/Mobile/Hero/hero1.webp' },
+  { id: 2, label: 'Visit to Greece',      image: 'https://images.framedbyabard.com/Mobile/Hero/hero2.webp' },
+  { id: 3, label: 'Travel to Italy',      image: 'https://images.framedbyabard.com/Mobile/Hero/hero3.webp' },
+  { id: 4, label: 'Vietnam & Beyond',     image: 'https://images.framedbyabard.com/Mobile/Hero/hero4.webp' },
+  { id: 5, label: 'England',              image: 'https://images.framedbyabard.com/Mobile/Hero/hero5.webp' },  
 ];
